@@ -8,7 +8,11 @@ defmodule MyList do
     list_len(1, tail)
   end
 
+  defp list_len(accumulator, []) do
+    accumulator
+  end
+
   defp list_len(accumulator, [_head | tail]) do
-    accumulator + 1 + list_len(tail)
+    list_len(accumulator + 1, tail)
   end
 end
