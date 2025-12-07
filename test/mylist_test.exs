@@ -9,7 +9,8 @@ defmodule ListsTest do
     assert MyList.list_len([1]) == 1
   end
 
-  test "list_len/1 returns 100 for list with size 100" do
-    assert MyList.list_len(Enum.to_list(1..100)) == 100
+  test "list_len/1 returns correct length for arbitrary size list" do
+    random_size = :rand.uniform(1000)
+    assert MyList.list_len(Enum.to_list(1..random_size)) == random_size
   end
 end
