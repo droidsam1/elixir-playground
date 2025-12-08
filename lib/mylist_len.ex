@@ -1,6 +1,5 @@
 # Create a function list_len/1 that calculates the length of a list
 defmodule MyList do
-
   def list_len(list) do
     list_len(0, list)
   end
