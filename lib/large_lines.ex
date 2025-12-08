@@ -11,4 +11,9 @@ defmodule LargeLines do
     |> Stream.map(&String.trim_trailing(&1, "\n"))
     |> Enum.map(&String.length/1)
   end
+
+  def longest_line_lenght(path) do
+    large_lenghts(path)
+    |> Enum.reduce(0, fn acc, element -> if element > acc, do: element, else: acc end)
+  end
 end

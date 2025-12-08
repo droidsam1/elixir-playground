@@ -6,6 +6,13 @@ defmodule LargeLinesTest do
     assert LargeLines.large_lenghts(path) == [5, 23, 79]
   end
 
+  test "longest_line_length/1 returns the length of the longest line in a file" do
+    path = create_temp_file()
+
+    assert LargeLines.longest_line_lenght(path) == 79
+  end
+
+
   defp create_temp_file() do
     path =
       System.tmp_dir!()
