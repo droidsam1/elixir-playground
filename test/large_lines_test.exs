@@ -12,7 +12,6 @@ defmodule LargeLinesTest do
     assert LargeLines.longest_line_lenght(path) == 79
   end
 
-
   defp create_temp_file() do
     path =
       System.tmp_dir!()

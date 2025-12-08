@@ -14,6 +14,7 @@ defmodule LargeLines do
 
   def longest_line_lenght(path) do
     large_lenghts(path)
-    |> Enum.reduce(0, fn acc, element -> if element > acc, do: element, else: acc end)
+    # |> Enum.reduce(0, fn acc, element -> if element > acc, do: element, else: acc end)
+    |> Enum.max()
   end
 end
