@@ -6,7 +6,15 @@ defmodule SimpleTodo do
   @type t :: %SimpleTodo{entries: %{}}
 
   def new(initial_state \\ %{}) do
-    %SimpleTodo{entries: initial_state}
+    Enum.reduce(
+      initial_state,
+      %SimpleTodo{},
+      fn {date, tasks}, todo ->
+        Enum.reduce(tasks, todo, fn task, acc ->
+          SimpleTodo.add(acc, date, task)
+        end)
+      end
+    )
   end
 
   @spec add(SimpleTodo.t(), Date.t(), String.t()) :: SimpleTodo.t()
