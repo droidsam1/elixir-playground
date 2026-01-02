@@ -36,4 +36,11 @@ defmodule SimpleTodoTest do
     assert Enum.sort(SimpleTodo.get(todo, day)) ==
              Enum.sort(["remember the milk", "remember the vegetables"])
   end
+
+  test "get returns empty when no task for specific day" do
+    todo = SimpleTodo.new()
+    day = Date.utc_today()
+
+    assert SimpleTodo.get(todo, day) == []
+  end
 end

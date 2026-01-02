@@ -14,8 +14,8 @@ defmodule SimpleTodo do
     Map.put(initial_state, day, tasks_for_date)
   end
 
-  @spec get(map(), Date.t()) :: String.t() | nil
+  @spec get(map(), Date.t()) :: map()
   def get(initial_state, day) do
-    Map.get(initial_state, day)
+    Map.get(initial_state, day, [])
   end
 end
