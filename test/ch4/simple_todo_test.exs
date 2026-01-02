@@ -6,23 +6,33 @@ defmodule SimpleTodoTest do
     assert SimpleTodo.new() == %{}
   end
 
-  test "add puts some value in the todo" do
+  test "add puts some taks in the todo" do
     day = Date.utc_today()
     another_day = Date.add(day, 1)
     initial_state = SimpleTodo.new()
     state_after_first = SimpleTodo.add(initial_state, day, "buy some bread")
-    assert state_after_first == %{day => "buy some bread"}
 
+
+    assert state_after_first == %{day => ["buy some bread"]}
     assert SimpleTodo.add(state_after_first, another_day, "buy some milk") == %{
-             day => "buy some bread",
-             another_day => "buy some milk"
+             day => ["buy some bread"],
+             another_day => ["buy some milk"]
            }
   end
 
   test "get returns and specific task from the todo" do
     day = Date.utc_today()
-    initial_state = SimpleTodo.new(%{day => "remember the milk"})
+    initial_state = SimpleTodo.new(%{day => ["remember the milk"]})
 
-    assert SimpleTodo.get(initial_state, day) == "remember the milk"
+    assert SimpleTodo.get(initial_state, day) == ["remember the milk"]
+  end
+
+  test "add can put n number of tasks in the same date" do
+    day = Date.utc_today()
+    todo = SimpleTodo.new()
+    todo = SimpleTodo.add(todo, day, "remember the milk")
+    todo = SimpleTodo.add(todo, day, "remember the vegetables")
+
+    assert Enum.sort(SimpleTodo.get(todo, day)) == Enum.sort(["remember the milk", "remember the vegetables"])
   end
 end
