@@ -18653,3 +18653,1278 @@ Type: :worker
 09:54:15.323 [info] Plugins found 0 results in 0.005 ms
 
 09:54:15.530 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 331µs
+14:28:39.441 [debug] handled request client -> server textDocument/codeLens in 3ms
+14:28:55.749 [info] Resolved entity: {:variable, :assert}
+14:28:55.751 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :assert}}}
+14:28:55.751 [debug] handled request client -> server textDocument/hover in 14ms
+14:28:56.001 [info] Resolved entity: {:variable, :assert}
+14:28:56.002 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :assert}}}
+14:28:56.002 [debug] handled request client -> server textDocument/hover in 4ms
+14:28:59.971 [warning] Could not resolve hover request, got: {:error, :not_found}
+14:28:59.971 [debug] handled request client -> server textDocument/hover in 3ms
+14:29:00.166 [warning] Could not resolve hover request, got: {:error, :not_found}
+14:29:00.166 [debug] handled request client -> server textDocument/hover in 2ms
+14:29:06.718 [warning] Could not resolve hover request, got: {:error, :not_found}
+14:29:06.719 [debug] handled request client -> server textDocument/hover in 3ms
+14:29:09.995 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:29:10.048 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:10.049 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:10.049 [debug] Node port message: 
+14:29:10.049 [info] Plugins found 0 results in 0.016 ms
+
+14:29:10.255 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:29:10.353 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:29:10.353 [debug] handled request client -> server textDocument/documentSymbol in 913µs
+14:29:11.470 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:29:11.490 [info] Completion for XpPos<<11, 56>>
+14:29:11.567 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:11.567 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:11.567 [debug] Node port message: 
+14:29:11.567 [info] Plugins found 0 results in 0.005 ms
+
+14:29:11.570 [info] Local completions are: [module: (Dict)   struct: (Date, DateTime, Duration, DynamicSupervisor)   ]
+14:29:11.571 [info] Emitting Completions: [9:Date 9:DateTime 9:Dict 9:Duration 9:DynamicSupervisor ]
+14:29:11.571 [debug] handled request client -> server textDocument/completion in 84ms
+14:29:11.727 [debug] handled request client -> server textDocument/codeLens in 263µs
+14:29:11.914 [debug] handled request client -> server textDocument/documentSymbol in 86ms
+14:29:11.920 [debug] handled request client -> server textDocument/documentSymbol in 92ms
+14:29:18.614 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:29:18.684 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:18.684 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:18.684 [debug] Node port message: 
+14:29:18.684 [info] Plugins found 0 results in 0.015 ms
+
+14:29:18.861 [debug] handled request client -> server textDocument/codeLens in 350µs
+14:29:19.096 [debug] handled request client -> server textDocument/documentSymbol in 130ms
+14:29:19.103 [debug] handled request client -> server textDocument/documentSymbol in 138ms
+14:29:19.365 [info] Resolved entity: {:call, DateTime, :utc_now, 0}
+14:29:19.387 [debug] handled request client -> server textDocument/hover in 24ms
+14:29:42.526 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:29:42.578 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.578 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.578 [debug] Node port message: 
+14:29:42.578 [info] Plugins found 0 results in 0.01 ms
+
+14:29:42.711 [debug] handled notification client -> server textDocument/didChange in 844µs
+14:29:42.785 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.785 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.785 [debug] Node port message: 
+14:29:42.785 [info] Plugins found 0 results in 0.013 ms
+
+14:29:42.851 [debug] handled notification client -> server textDocument/didChange in 738µs
+14:29:42.938 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.939 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:42.939 [debug] Node port message: 
+14:29:42.938 [info] Plugins found 0 results in 0.007 ms
+
+14:29:42.999 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:29:43.079 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.079 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.079 [debug] Node port message: 
+14:29:43.078 [info] Plugins found 0 results in 0.009 ms
+
+14:29:43.145 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:29:43.220 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.221 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.221 [debug] Node port message: 
+14:29:43.220 [info] Plugins found 0 results in 0.007 ms
+
+14:29:43.282 [debug] handled notification client -> server textDocument/didChange in 779µs
+14:29:43.398 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.398 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.398 [debug] Node port message: 
+14:29:43.398 [info] Plugins found 0 results in 0.006 ms
+
+14:29:43.431 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:29:43.511 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.512 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.512 [debug] Node port message: 
+14:29:43.511 [info] Plugins found 0 results in 0.006 ms
+
+14:29:43.576 [debug] handled notification client -> server textDocument/didChange in 865µs
+14:29:43.653 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.654 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.654 [debug] Node port message: 
+14:29:43.653 [info] Plugins found 0 results in 0.006 ms
+
+14:29:43.828 [debug] handled request client -> server textDocument/codeLens in 271µs
+14:29:43.882 [debug] handled notification client -> server textDocument/didChange in 938µs
+14:29:43.929 [debug] handled request client -> server textDocument/documentSymbol in 522µs
+14:29:43.934 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.934 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:43.934 [debug] Node port message: 
+14:29:43.934 [info] Plugins found 0 results in 0.007 ms
+
+14:29:44.147 [debug] handled request client -> server textDocument/codeLens in 560µs
+14:29:44.244 [debug] handled request client -> server textDocument/documentSymbol in 9ms
+14:29:44.244 [debug] handled request client -> server textDocument/documentSymbol in 9ms
+14:29:46.365 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:29:46.447 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:46.447 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:46.447 [debug] Node port message: 
+14:29:46.447 [info] Plugins found 0 results in 0.005 ms
+
+14:29:46.618 [debug] handled request client -> server textDocument/codeLens in 370µs
+14:29:46.621 [debug] handled notification client -> server textDocument/didChange in 817µs
+14:29:46.624 [info] Completion for XpPos<<11, 64>>
+14:29:46.674 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:46.675 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:29:46.675 [debug] Node port message: 
+14:29:46.674 [info] Plugins found 0 results in 0.007 ms
+
+14:29:46.702 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, add, add, after?, before?, compare, convert, convert!, diff, diff, from_gregorian_seconds, from_gregorian_seconds, from_gregorian_seconds, from_iso8601, from_iso8601, from_iso8601, from_naive, from_naive, from_naive!, from_naive!, from_unix, from_unix, from_unix, from_unix!, from_unix!, from_unix!, module_info, module_info, new, new, new, new!, new!, new!, now, now, now!, now!, shift, shift, shift_zone, shift_zone, shift_zone!, shift_zone!, to_date, to_gregorian_seconds, to_iso8601, to_iso8601, to_iso8601, to_naive, to_string, to_time, to_unix, to_unix, truncate, utc_now, utc_now, utc_now)   ]
+14:29:46.704 [info] Emitting Completions: [3:__duration__!(params) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(datetime, amount_to_add) 3:add(datetime, amount_to_add, unit) 3:add(datetime, amount_to_add, unit, time_zone_database) 3:after?(datetime1, datetime2) 3:before?(datetime1, datetime2) 3:compare(datetime1, datetime2) 3:convert(datetime, calendar) 3:convert!(datetime, calendar) 3:diff(datetime1, datetime2) 3:diff(datetime1, datetime2, unit) 3:from_gregorian_seconds(seconds) 3:from_gregorian_seconds(seconds, arg) 3:from_gregorian_seconds(seconds, arg, calendar) 3:from_iso8601(string) 3:from_iso8601(string, format_or_calendar) 3:from_iso8601(string, calendar, format) 3:from_naive(naive_datetime, time_zone) 3:from_naive(naive_datetime, time_zone, time_zone_database) 3:from_naive!(naive_datetime, time_zone) 3:from_naive!(naive_datetime, time_zone, time_zone_database) 3:from_unix(integer) 3:from_unix(integer, unit) 3:from_unix(integer, unit, calendar) 3:from_unix!(integer) 3:from_unix!(integer, unit) 3:from_unix!(integer, unit, calendar) 3:module_info() 3:module_info(key) 3:new(date, time) 3:new(date, time, time_zone) 3:new(date, time, time_zone, time_zone_database) 3:new!(date, time) 3:new!(date, time, time_zone) 3:new!(date, time, time_zone, time_zone_database) 3:now(time_zone) 3:now(time_zone, time_zone_database) 3:now!(time_zone) 3:now!(time_zone, time_zone_database) 3:shift(datetime, duration) 3:shift(datetime, duration, time_zone_database) 3:shift_zone(datetime, time_zone) 3:shift_zone(datetime, time_zone, time_zone_database) 3:shift_zone!(datetime, time_zone) 3:shift_zone!(datetime, time_zone, time_zone_database) 3:to_date(datetime) 3:to_gregorian_seconds(datetime) 3:to_iso8601(datetime) 3:to_iso8601(datetime, format) 3:to_iso8601(datetime, format, offset) 3:to_naive(datetime) 3:to_string(datetime) 3:to_time(datetime) 3:to_unix(datetime) 3:to_unix(datetime, unit) 3:truncate(datetime, precision) 3:utc_now() 3:utc_now(calendar_or_time_unit) 3:utc_now(time_unit, calendar) ]
+14:29:46.705 [debug] handled request client -> server textDocument/completion in 82ms
+14:29:46.874 [debug] handled request client -> server textDocument/codeLens in 364µs
+14:29:46.977 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:29:46.988 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:36:46.216 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:36:54.525 [debug] handled request client -> server textDocument/codeLens in 710µs
+14:36:57.947 [debug] handled request client -> server textDocument/codeLens in 618µs
+14:37:01.037 [debug] handled request client -> server textDocument/codeLens in 2ms
+14:41:07.519 [debug] handled request client -> server textDocument/codeLens in 955µs
+14:41:07.548 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:10.515 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:41:10.568 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:10.568 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:10.568 [debug] Node port message: 
+14:41:10.568 [info] Plugins found 0 results in 0.016 ms
+
+14:41:10.771 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:41:10.863 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:41:10.863 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:41:11.109 [debug] handled notification client -> server textDocument/didChange in 7ms
+14:41:11.163 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:11.163 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:11.164 [debug] Node port message: 
+14:41:11.163 [info] Plugins found 0 results in 0.018 ms
+
+14:41:11.392 [debug] handled request client -> server textDocument/codeLens in 692µs
+14:41:11.462 [debug] handled request client -> server textDocument/documentSymbol in 577µs
+14:41:11.468 [debug] handled request client -> server textDocument/documentSymbol in 432µs
+14:41:11.530 [debug] handled notification client -> server textDocument/didChange in 861µs
+14:41:11.582 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:11.582 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:11.582 [debug] Node port message: 
+14:41:11.582 [info] Plugins found 0 results in 0.007 ms
+
+14:41:11.784 [debug] handled request client -> server textDocument/codeLens in 484µs
+14:41:11.885 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:11.887 [debug] handled request client -> server textDocument/documentSymbol in 934µs
+14:41:12.118 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:41:12.170 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:12.170 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:12.170 [debug] Node port message: 
+14:41:12.170 [info] Plugins found 0 results in 0.007 ms
+
+14:41:12.377 [debug] handled request client -> server textDocument/codeLens in 750µs
+14:41:12.473 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:12.479 [debug] handled request client -> server textDocument/documentSymbol in 777µs
+14:41:12.523 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:12.575 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:12.576 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:12.576 [debug] Node port message: 
+14:41:12.575 [info] Plugins found 0 results in 0.008 ms
+
+14:41:12.780 [debug] handled request client -> server textDocument/codeLens in 310µs
+14:41:12.875 [debug] handled request client -> server textDocument/documentSymbol in 869µs
+14:41:12.876 [debug] handled request client -> server textDocument/documentSymbol in 528µs
+14:41:13.075 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:41:13.126 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.126 [debug] Node port message: 
+14:41:13.126 [info] Plugins found 0 results in 0.007 ms
+
+14:41:13.126 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.335 [debug] handled request client -> server textDocument/codeLens in 778µs
+14:41:13.357 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:13.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.409 [debug] Node port message: 
+14:41:13.409 [info] Plugins found 0 results in 0.008 ms
+
+14:41:13.615 [debug] handled request client -> server textDocument/codeLens in 705µs
+14:41:13.709 [debug] handled request client -> server textDocument/documentSymbol in 937µs
+14:41:13.709 [debug] handled request client -> server textDocument/documentSymbol in 732µs
+14:41:13.885 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:13.937 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.937 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:13.937 [debug] Node port message: 
+14:41:13.937 [info] Plugins found 0 results in 0.006 ms
+
+14:41:14.143 [debug] handled request client -> server textDocument/codeLens in 427µs
+14:41:14.244 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:41:14.244 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:41:19.388 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:41:19.439 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:19.439 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:19.439 [debug] Node port message: 
+14:41:19.439 [info] Plugins found 0 results in 0.007 ms
+
+14:41:19.649 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:41:19.762 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:19.762 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:20.122 [debug] handled notification client -> server textDocument/didChange in 726µs
+14:41:20.178 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:20.178 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:20.178 [debug] Node port message: 
+14:41:20.178 [info] Plugins found 0 results in 0.008 ms
+
+14:41:20.382 [debug] handled request client -> server textDocument/codeLens in 2ms
+14:41:20.480 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:20.480 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:21.690 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:41:21.742 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:21.742 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:21.742 [debug] Node port message: 
+14:41:21.742 [info] Plugins found 0 results in 0.007 ms
+
+14:41:21.949 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:41:22.049 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:41:22.049 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:22.192 [debug] handled notification client -> server textDocument/didChange in 4ms
+14:41:22.243 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.244 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.244 [debug] Node port message: 
+14:41:22.243 [info] Plugins found 0 results in 0.014 ms
+
+14:41:22.262 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:22.314 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.314 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.314 [debug] Node port message: 
+14:41:22.314 [info] Plugins found 0 results in 0.007 ms
+
+14:41:22.472 [debug] handled notification client -> server textDocument/didChange in 916µs
+14:41:22.524 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.524 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.524 [debug] Node port message: 
+14:41:22.524 [info] Plugins found 0 results in 0.009 ms
+
+14:41:22.735 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:41:22.820 [debug] handled notification client -> server textDocument/didChange in 4ms
+14:41:22.873 [debug] handled notification client -> server $/cancelRequest in 153µs
+14:41:22.932 [debug] Node port message: 
+14:41:22.932 [info] Plugins found 0 results in 0.02 ms
+
+14:41:22.932 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:22.932 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:23.071 [debug] handled request client -> server textDocument/codeLens in 292µs
+14:41:23.097 [debug] handled notification client -> server textDocument/didChange in 787µs
+14:41:23.148 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:23.148 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:23.148 [debug] Node port message: 
+14:41:23.148 [info] Plugins found 0 results in 0.014 ms
+
+14:41:23.355 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:41:23.478 [debug] handled request client -> server textDocument/documentSymbol in 26ms
+14:41:23.478 [debug] handled request client -> server textDocument/documentSymbol in 26ms
+14:41:23.607 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:23.687 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:23.687 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:23.688 [debug] Node port message: 
+14:41:23.687 [info] Plugins found 0 results in 0.007 ms
+
+14:41:23.859 [debug] handled request client -> server textDocument/codeLens in 397µs
+14:41:23.967 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:41:23.973 [info] Completion for XpPos<<11, 64>>
+14:41:23.978 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:41:24.018 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.019 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.019 [debug] Node port message: 
+14:41:24.018 [info] Plugins found 0 results in 0.005 ms
+
+14:41:24.023 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, add, add, after?, before?, compare, convert, convert!, diff, diff, from_gregorian_seconds, from_gregorian_seconds, from_gregorian_seconds, from_iso8601, from_iso8601, from_iso8601, from_naive, from_naive, from_naive!, from_naive!, from_unix, from_unix, from_unix, from_unix!, from_unix!, from_unix!, module_info, module_info, new, new, new, new!, new!, new!, now, now, now!, now!, shift, shift, shift_zone, shift_zone, shift_zone!, shift_zone!, to_date, to_gregorian_seconds, to_iso8601, to_iso8601, to_iso8601, to_naive, to_string, to_time, to_unix, to_unix, truncate, utc_now, utc_now, utc_now)   ]
+14:41:24.027 [info] Emitting Completions: [3:__duration__!(params) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(datetime, amount_to_add) 3:add(datetime, amount_to_add, unit) 3:add(datetime, amount_to_add, unit, time_zone_database) 3:after?(datetime1, datetime2) 3:before?(datetime1, datetime2) 3:compare(datetime1, datetime2) 3:convert(datetime, calendar) 3:convert!(datetime, calendar) 3:diff(datetime1, datetime2) 3:diff(datetime1, datetime2, unit) 3:from_gregorian_seconds(seconds) 3:from_gregorian_seconds(seconds, arg) 3:from_gregorian_seconds(seconds, arg, calendar) 3:from_iso8601(string) 3:from_iso8601(string, format_or_calendar) 3:from_iso8601(string, calendar, format) 3:from_naive(naive_datetime, time_zone) 3:from_naive(naive_datetime, time_zone, time_zone_database) 3:from_naive!(naive_datetime, time_zone) 3:from_naive!(naive_datetime, time_zone, time_zone_database) 3:from_unix(integer) 3:from_unix(integer, unit) 3:from_unix(integer, unit, calendar) 3:from_unix!(integer) 3:from_unix!(integer, unit) 3:from_unix!(integer, unit, calendar) 3:module_info() 3:module_info(key) 3:new(date, time) 3:new(date, time, time_zone) 3:new(date, time, time_zone, time_zone_database) 3:new!(date, time) 3:new!(date, time, time_zone) 3:new!(date, time, time_zone, time_zone_database) 3:now(time_zone) 3:now(time_zone, time_zone_database) 3:now!(time_zone) 3:now!(time_zone, time_zone_database) 3:shift(datetime, duration) 3:shift(datetime, duration, time_zone_database) 3:shift_zone(datetime, time_zone) 3:shift_zone(datetime, time_zone, time_zone_database) 3:shift_zone!(datetime, time_zone) 3:shift_zone!(datetime, time_zone, time_zone_database) 3:to_date(datetime) 3:to_gregorian_seconds(datetime) 3:to_iso8601(datetime) 3:to_iso8601(datetime, format) 3:to_iso8601(datetime, format, offset) 3:to_naive(datetime) 3:to_string(datetime) 3:to_time(datetime) 3:to_unix(datetime) 3:to_unix(datetime, unit) 3:truncate(datetime, precision) 3:utc_now() 3:utc_now(calendar_or_time_unit) 3:utc_now(time_unit, calendar) ]
+14:41:24.029 [debug] handled request client -> server textDocument/completion in 59ms
+14:41:24.206 [debug] handled notification client -> server textDocument/didChange in 741µs
+14:41:24.258 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.258 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.258 [debug] Node port message: 
+14:41:24.258 [info] Plugins found 0 results in 0.008 ms
+
+14:41:24.462 [debug] handled request client -> server textDocument/codeLens in 563µs
+14:41:24.572 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+14:41:24.572 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+14:41:24.778 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:41:24.831 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.831 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:24.832 [debug] Node port message: 
+14:41:24.831 [info] Plugins found 0 results in 0.015 ms
+
+14:41:25.036 [debug] handled request client -> server textDocument/codeLens in 900µs
+14:41:25.077 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:41:25.151 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:25.151 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:41:25.151 [debug] Node port message: 
+14:41:25.151 [info] Plugins found 0 results in 0.005 ms
+
+14:41:25.332 [debug] handled request client -> server textDocument/codeLens in 391µs
+14:41:25.520 [debug] handled request client -> server textDocument/documentSymbol in 91ms
+14:41:25.527 [debug] handled request client -> server textDocument/documentSymbol in 99ms
+14:42:33.407 [debug] handled request client -> server textDocument/codeLens in 287µs
+14:42:33.509 [debug] handled request client -> server textDocument/documentSymbol in 63ms
+14:42:35.036 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:42:35.043 [info] Emitting Completions: []
+14:42:35.044 [debug] handled request client -> server textDocument/completion in 3ms
+14:42:35.089 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.089 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.089 [debug] Node port message: 
+14:42:35.089 [info] Plugins found 0 results in 0.008 ms
+
+14:42:35.287 [debug] handled request client -> server textDocument/codeLens in 680µs
+14:42:35.390 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:42:35.391 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:42:35.410 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:42:35.490 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.490 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.490 [debug] Node port message: 
+14:42:35.490 [info] Plugins found 0 results in 0.012 ms
+
+14:42:35.667 [debug] handled request client -> server textDocument/codeLens in 324µs
+14:42:35.852 [debug] handled request client -> server textDocument/documentSymbol in 79ms
+14:42:35.858 [debug] handled request client -> server textDocument/documentSymbol in 85ms
+14:42:35.941 [debug] handled notification client -> server textDocument/didChange in 813µs
+14:42:35.943 [info] Completion for XpPos<<11, 64>>
+14:42:35.974 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, add, add, after?, before?, compare, convert, convert!, diff, diff, from_gregorian_seconds, from_gregorian_seconds, from_gregorian_seconds, from_iso8601, from_iso8601, from_iso8601, from_naive, from_naive, from_naive!, from_naive!, from_unix, from_unix, from_unix, from_unix!, from_unix!, from_unix!, module_info, module_info, new, new, new, new!, new!, new!, now, now, now!, now!, shift, shift, shift_zone, shift_zone, shift_zone!, shift_zone!, to_date, to_gregorian_seconds, to_iso8601, to_iso8601, to_iso8601, to_naive, to_string, to_time, to_unix, to_unix, truncate, utc_now, utc_now, utc_now)   ]
+14:42:35.977 [info] Emitting Completions: [3:__duration__!(params) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(datetime, amount_to_add) 3:add(datetime, amount_to_add, unit) 3:add(datetime, amount_to_add, unit, time_zone_database) 3:after?(datetime1, datetime2) 3:before?(datetime1, datetime2) 3:compare(datetime1, datetime2) 3:convert(datetime, calendar) 3:convert!(datetime, calendar) 3:diff(datetime1, datetime2) 3:diff(datetime1, datetime2, unit) 3:from_gregorian_seconds(seconds) 3:from_gregorian_seconds(seconds, arg) 3:from_gregorian_seconds(seconds, arg, calendar) 3:from_iso8601(string) 3:from_iso8601(string, format_or_calendar) 3:from_iso8601(string, calendar, format) 3:from_naive(naive_datetime, time_zone) 3:from_naive(naive_datetime, time_zone, time_zone_database) 3:from_naive!(naive_datetime, time_zone) 3:from_naive!(naive_datetime, time_zone, time_zone_database) 3:from_unix(integer) 3:from_unix(integer, unit) 3:from_unix(integer, unit, calendar) 3:from_unix!(integer) 3:from_unix!(integer, unit) 3:from_unix!(integer, unit, calendar) 3:module_info() 3:module_info(key) 3:new(date, time) 3:new(date, time, time_zone) 3:new(date, time, time_zone, time_zone_database) 3:new!(date, time) 3:new!(date, time, time_zone) 3:new!(date, time, time_zone, time_zone_database) 3:now(time_zone) 3:now(time_zone, time_zone_database) 3:now!(time_zone) 3:now!(time_zone, time_zone_database) 3:shift(datetime, duration) 3:shift(datetime, duration, time_zone_database) 3:shift_zone(datetime, time_zone) 3:shift_zone(datetime, time_zone, time_zone_database) 3:shift_zone!(datetime, time_zone) 3:shift_zone!(datetime, time_zone, time_zone_database) 3:to_date(datetime) 3:to_gregorian_seconds(datetime) 3:to_iso8601(datetime) 3:to_iso8601(datetime, format) 3:to_iso8601(datetime, format, offset) 3:to_naive(datetime) 3:to_string(datetime) 3:to_time(datetime) 3:to_unix(datetime) 3:to_unix(datetime, unit) 3:truncate(datetime, precision) 3:utc_now() 3:utc_now(calendar_or_time_unit) 3:utc_now(time_unit, calendar) ]
+14:42:35.978 [debug] handled request client -> server textDocument/completion in 36ms
+14:42:35.992 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.993 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:35.993 [debug] Node port message: 
+14:42:35.992 [info] Plugins found 0 results in 0.007 ms
+
+14:42:36.198 [debug] handled request client -> server textDocument/codeLens in 454µs
+14:42:36.296 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:42:36.310 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:42:37.728 [debug] handled notification client -> server textDocument/didChange in 7ms
+14:42:37.781 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:37.781 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:37.781 [debug] Node port message: 
+14:42:37.780 [info] Plugins found 0 results in 0.013 ms
+
+14:42:37.982 [debug] handled request client -> server textDocument/codeLens in 680µs
+14:42:38.082 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:42:38.082 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:42:38.252 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:42:38.304 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:38.304 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:38.304 [debug] Node port message: 
+14:42:38.304 [info] Plugins found 0 results in 0.01 ms
+
+14:42:38.480 [debug] handled notification client -> server textDocument/didChange in 758µs
+14:42:38.494 [info] Completion for XpPos<<11, 65>>
+14:42:38.515 [info] Local completions are: []
+14:42:38.515 [info] Emitting Completions: []
+14:42:38.515 [debug] handled request client -> server textDocument/completion in 23ms
+14:42:38.529 [debug] handled notification client -> server textDocument/didChange in 670µs
+14:42:38.603 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:38.603 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:38.603 [debug] Node port message: 
+14:42:38.603 [info] Plugins found 0 results in 0.006 ms
+
+14:42:38.781 [debug] handled request client -> server textDocument/codeLens in 378µs
+14:42:38.980 [debug] handled request client -> server textDocument/documentSymbol in 97ms
+14:42:38.983 [debug] handled request client -> server textDocument/documentSymbol in 93ms
+14:42:39.031 [debug] handled notification client -> server textDocument/didChange in 653µs
+14:42:39.107 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:39.107 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:39.107 [debug] Node port message: 
+14:42:39.107 [info] Plugins found 0 results in 0.008 ms
+
+14:42:39.224 [debug] handled notification client -> server textDocument/didChange in 983µs
+14:42:39.276 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:39.276 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:42:39.276 [debug] Node port message: 
+14:42:39.276 [info] Plugins found 0 results in 0.008 ms
+
+14:42:39.471 [info] Completion for XpPos<<11, 64>>
+14:42:39.477 [debug] handled request client -> server textDocument/codeLens in 402µs
+14:42:39.512 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, add, add, after?, before?, compare, convert, convert!, diff, diff, from_gregorian_seconds, from_gregorian_seconds, from_gregorian_seconds, from_iso8601, from_iso8601, from_iso8601, from_naive, from_naive, from_naive!, from_naive!, from_unix, from_unix, from_unix, from_unix!, from_unix!, from_unix!, module_info, module_info, new, new, new, new!, new!, new!, now, now, now!, now!, shift, shift, shift_zone, shift_zone, shift_zone!, shift_zone!, to_date, to_gregorian_seconds, to_iso8601, to_iso8601, to_iso8601, to_naive, to_string, to_time, to_unix, to_unix, truncate, utc_now, utc_now, utc_now)   ]
+14:42:39.516 [info] Emitting Completions: [3:__duration__!(params) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(datetime, amount_to_add) 3:add(datetime, amount_to_add, unit) 3:add(datetime, amount_to_add, unit, time_zone_database) 3:after?(datetime1, datetime2) 3:before?(datetime1, datetime2) 3:compare(datetime1, datetime2) 3:convert(datetime, calendar) 3:convert!(datetime, calendar) 3:diff(datetime1, datetime2) 3:diff(datetime1, datetime2, unit) 3:from_gregorian_seconds(seconds) 3:from_gregorian_seconds(seconds, arg) 3:from_gregorian_seconds(seconds, arg, calendar) 3:from_iso8601(string) 3:from_iso8601(string, format_or_calendar) 3:from_iso8601(string, calendar, format) 3:from_naive(naive_datetime, time_zone) 3:from_naive(naive_datetime, time_zone, time_zone_database) 3:from_naive!(naive_datetime, time_zone) 3:from_naive!(naive_datetime, time_zone, time_zone_database) 3:from_unix(integer) 3:from_unix(integer, unit) 3:from_unix(integer, unit, calendar) 3:from_unix!(integer) 3:from_unix!(integer, unit) 3:from_unix!(integer, unit, calendar) 3:module_info() 3:module_info(key) 3:new(date, time) 3:new(date, time, time_zone) 3:new(date, time, time_zone, time_zone_database) 3:new!(date, time) 3:new!(date, time, time_zone) 3:new!(date, time, time_zone, time_zone_database) 3:now(time_zone) 3:now(time_zone, time_zone_database) 3:now!(time_zone) 3:now!(time_zone, time_zone_database) 3:shift(datetime, duration) 3:shift(datetime, duration, time_zone_database) 3:shift_zone(datetime, time_zone) 3:shift_zone(datetime, time_zone, time_zone_database) 3:shift_zone!(datetime, time_zone) 3:shift_zone!(datetime, time_zone, time_zone_database) 3:to_date(datetime) 3:to_gregorian_seconds(datetime) 3:to_iso8601(datetime) 3:to_iso8601(datetime, format) 3:to_iso8601(datetime, format, offset) 3:to_naive(datetime) 3:to_string(datetime) 3:to_time(datetime) 3:to_unix(datetime) 3:to_unix(datetime, unit) 3:truncate(datetime, precision) 3:utc_now() 3:utc_now(calendar_or_time_unit) 3:utc_now(time_unit, calendar) ]
+14:42:39.517 [debug] handled request client -> server textDocument/completion in 49ms
+14:42:39.576 [debug] handled request client -> server textDocument/documentSymbol in 636µs
+14:42:39.582 [debug] handled request client -> server textDocument/documentSymbol in 475µs
+14:43:00.260 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:00.266 [info] Completion for XpPos<<11, 63>>
+14:43:00.299 [info] Local completions are: [struct: (DateTime)   ]
+14:43:00.299 [info] Emitting Completions: [9:DateTime ]
+14:43:00.300 [debug] handled request client -> server textDocument/completion in 37ms
+14:43:00.336 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.336 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.336 [debug] Node port message: 
+14:43:00.335 [info] Plugins found 0 results in 0.007 ms
+
+14:43:00.394 [debug] handled notification client -> server textDocument/didChange in 891µs
+14:43:00.396 [info] Completion for XpPos<<11, 62>>
+14:43:00.419 [info] Local completions are: [struct: (DateTime)   ]
+14:43:00.419 [info] Emitting Completions: [9:DateTime ]
+14:43:00.419 [debug] handled request client -> server textDocument/completion in 24ms
+14:43:00.492 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.492 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.492 [debug] Node port message: 
+14:43:00.492 [info] Plugins found 0 results in 0.005 ms
+
+14:43:00.536 [debug] handled notification client -> server textDocument/didChange in 660µs
+14:43:00.539 [info] Completion for XpPos<<11, 61>>
+14:43:00.559 [info] Local completions are: [struct: (DateTime)   ]
+14:43:00.559 [info] Emitting Completions: [9:DateTime ]
+14:43:00.559 [debug] handled request client -> server textDocument/completion in 22ms
+14:43:00.607 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.607 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.607 [debug] Node port message: 
+14:43:00.607 [info] Plugins found 0 results in 0.006 ms
+
+14:43:00.679 [debug] handled notification client -> server textDocument/didChange in 667µs
+14:43:00.681 [info] Completion for XpPos<<11, 60>>
+14:43:00.702 [info] Local completions are: [struct: (DateTime)   ]
+14:43:00.702 [info] Emitting Completions: [9:DateTime ]
+14:43:00.702 [debug] handled request client -> server textDocument/completion in 22ms
+14:43:00.752 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.752 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:00.753 [debug] Node port message: 
+14:43:00.752 [info] Plugins found 0 results in 0.005 ms
+
+14:43:00.932 [debug] handled request client -> server textDocument/codeLens in 351µs
+14:43:01.112 [debug] handled request client -> server textDocument/documentSymbol in 79ms
+14:43:01.117 [debug] handled request client -> server textDocument/documentSymbol in 85ms
+14:43:01.159 [debug] handled notification client -> server textDocument/didChange in 658µs
+14:43:01.162 [info] Completion for XpPos<<11, 59>>
+14:43:01.186 [info] Local completions are: [struct: (Date, DateTime)   ]
+14:43:01.187 [info] Emitting Completions: [9:Date 9:DateTime ]
+14:43:01.187 [debug] handled request client -> server textDocument/completion in 26ms
+14:43:01.231 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:01.231 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:01.231 [debug] Node port message: 
+14:43:01.231 [info] Plugins found 0 results in 0.007 ms
+
+14:43:01.415 [debug] handled request client -> server textDocument/codeLens in 456µs
+14:43:01.599 [debug] handled request client -> server textDocument/documentSymbol in 81ms
+14:43:01.604 [debug] handled request client -> server textDocument/documentSymbol in 88ms
+14:43:02.465 [debug] handled notification client -> server textDocument/didChange in 6ms
+14:43:02.563 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:02.563 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:02.563 [debug] Node port message: 
+14:43:02.563 [info] Plugins found 0 results in 0.006 ms
+
+14:43:02.710 [debug] handled request client -> server textDocument/codeLens in 356µs
+14:43:02.882 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:43:02.888 [debug] handled request client -> server textDocument/documentSymbol in 73ms
+14:43:08.420 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:08.472 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:08.472 [debug] Node port message: 
+14:43:08.472 [info] Plugins found 0 results in 0.007 ms
+
+14:43:08.472 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:08.684 [debug] handled request client -> server textDocument/codeLens in 2ms
+14:43:08.772 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:08.778 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:09.935 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:43:10.016 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.016 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.016 [debug] Node port message: 
+14:43:10.015 [info] Plugins found 0 results in 0.006 ms
+
+14:43:10.193 [debug] handled request client -> server textDocument/codeLens in 552µs
+14:43:10.233 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:10.236 [info] Completion for XpPos<<11, 60>>
+14:43:10.286 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.286 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.286 [debug] Node port message: 
+14:43:10.286 [info] Plugins found 0 results in 0.008 ms
+
+14:43:10.319 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, after?, before?, beginning_of_month, beginning_of_week, beginning_of_week, compare, convert, convert!, day_of_era, day_of_week, day_of_week, day_of_year, days_in_month, diff, end_of_month, end_of_week, end_of_week, from_erl, from_erl, from_erl!, from_erl!, from_gregorian_days, from_gregorian_days, from_iso8601, from_iso8601, from_iso8601!, from_iso8601!, leap_year?, module_info, module_info, months_in_year, new, new, new!, new!, quarter_of_year, range, range, shift, to_erl, to_gregorian_days, to_iso8601, to_iso8601, to_iso_days, to_string, utc_today, utc_today, year_of_era)   struct: (Range)   ]
+14:43:10.322 [info] Emitting Completions: [9:Range 3:__duration__!(duration) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(date, days) 3:after?(date1, date2) 3:before?(date1, date2) 3:beginning_of_month(date) 3:beginning_of_week(date) 3:beginning_of_week(date, starting_on) 3:compare(date1, date2) 3:convert(date, calendar) 3:convert!(date, calendar) 3:day_of_era(date) 3:day_of_week(date) 3:day_of_week(date, starting_on) 3:day_of_year(date) 3:days_in_month(date) 3:diff(date1, date2) 3:end_of_month(date) 3:end_of_week(date) 3:end_of_week(date, starting_on) 3:from_erl(tuple) 3:from_erl(tuple, calendar) 3:from_erl!(tuple) 3:from_erl!(tuple, calendar) 3:from_gregorian_days(days) 3:from_gregorian_days(days, calendar) 3:from_iso8601(string) 3:from_iso8601(string, calendar) 3:from_iso8601!(string) 3:from_iso8601!(string, calendar) 3:leap_year?(date) 3:module_info() 3:module_info(key) 3:months_in_year(date) 3:new(year, month, day) 3:new(year, month, day, calendar) 3:new!(year, month, day) 3:new!(year, month, day, calendar) 3:quarter_of_year(date) 3:range(first, last) 3:range(first, last, step) 3:shift(date, duration) 3:to_erl(date) 3:to_gregorian_days(date) 3:to_iso8601(date) 3:to_iso8601(date, format) 3:to_iso_days(map) 3:to_string(date) 3:utc_today() 3:utc_today(calendar) 3:year_of_era(date) ]
+14:43:10.323 [debug] handled request client -> server textDocument/completion in 89ms
+14:43:10.485 [debug] handled request client -> server textDocument/codeLens in 424µs
+14:43:10.593 [debug] handled request client -> server textDocument/documentSymbol in 6ms
+14:43:10.594 [debug] handled request client -> server textDocument/documentSymbol in 6ms
+14:43:10.847 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:10.899 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.899 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:10.899 [debug] Node port message: 
+14:43:10.899 [info] Plugins found 0 results in 0.006 ms
+
+14:43:11.117 [debug] handled request client -> server textDocument/codeLens in 2ms
+14:43:11.214 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:11.214 [debug] handled request client -> server textDocument/documentSymbol in 562µs
+14:43:11.468 [debug] handled notification client -> server textDocument/didChange in 5ms
+14:43:11.519 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:11.519 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:11.519 [debug] Node port message: 
+14:43:11.519 [info] Plugins found 0 results in 0.008 ms
+
+14:43:11.724 [debug] handled request client -> server textDocument/codeLens in 269µs
+14:43:11.822 [debug] handled request client -> server textDocument/documentSymbol in 781µs
+14:43:11.828 [debug] handled request client -> server textDocument/documentSymbol in 549µs
+14:43:13.314 [info] Completion for XpPos<<11, 60>>
+14:43:13.342 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, after?, before?, beginning_of_month, beginning_of_week, beginning_of_week, compare, convert, convert!, day_of_era, day_of_week, day_of_week, day_of_year, days_in_month, diff, end_of_month, end_of_week, end_of_week, from_erl, from_erl, from_erl!, from_erl!, from_gregorian_days, from_gregorian_days, from_iso8601, from_iso8601, from_iso8601!, from_iso8601!, leap_year?, module_info, module_info, months_in_year, new, new, new!, new!, quarter_of_year, range, range, shift, to_erl, to_gregorian_days, to_iso8601, to_iso8601, to_iso_days, to_string, utc_today, utc_today, year_of_era)   struct: (Range)   ]
+14:43:13.346 [info] Emitting Completions: [9:Range 3:__duration__!(duration) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(date, days) 3:after?(date1, date2) 3:before?(date1, date2) 3:beginning_of_month(date) 3:beginning_of_week(date) 3:beginning_of_week(date, starting_on) 3:compare(date1, date2) 3:convert(date, calendar) 3:convert!(date, calendar) 3:day_of_era(date) 3:day_of_week(date) 3:day_of_week(date, starting_on) 3:day_of_year(date) 3:days_in_month(date) 3:diff(date1, date2) 3:end_of_month(date) 3:end_of_week(date) 3:end_of_week(date, starting_on) 3:from_erl(tuple) 3:from_erl(tuple, calendar) 3:from_erl!(tuple) 3:from_erl!(tuple, calendar) 3:from_gregorian_days(days) 3:from_gregorian_days(days, calendar) 3:from_iso8601(string) 3:from_iso8601(string, calendar) 3:from_iso8601!(string) 3:from_iso8601!(string, calendar) 3:leap_year?(date) 3:module_info() 3:module_info(key) 3:months_in_year(date) 3:new(year, month, day) 3:new(year, month, day, calendar) 3:new!(year, month, day) 3:new!(year, month, day, calendar) 3:quarter_of_year(date) 3:range(first, last) 3:range(first, last, step) 3:shift(date, duration) 3:to_erl(date) 3:to_gregorian_days(date) 3:to_iso8601(date) 3:to_iso8601(date, format) 3:to_iso_days(map) 3:to_string(date) 3:utc_today() 3:utc_today(calendar) 3:year_of_era(date) ]
+14:43:13.348 [debug] handled request client -> server textDocument/completion in 34ms
+14:43:15.954 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:16.032 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:16.032 [debug] Node port message: 
+14:43:16.032 [info] Plugins found 0 results in 0.006 ms
+
+14:43:16.033 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:16.209 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:16.286 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:16.286 [debug] Node port message: 
+14:43:16.286 [info] Plugins found 0 results in 0.007 ms
+
+14:43:16.286 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:16.463 [debug] handled request client -> server textDocument/codeLens in 488µs
+14:43:16.648 [debug] handled request client -> server textDocument/documentSymbol in 83ms
+14:43:16.657 [debug] handled request client -> server textDocument/documentSymbol in 93ms
+14:43:17.159 [debug] handled notification client -> server textDocument/didChange in 5ms
+14:43:17.238 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:17.239 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:17.239 [debug] Node port message: 
+14:43:17.238 [info] Plugins found 0 results in 0.006 ms
+
+14:43:17.415 [debug] handled request client -> server textDocument/codeLens in 329µs
+14:43:17.605 [debug] handled request client -> server textDocument/documentSymbol in 89ms
+14:43:17.609 [debug] handled request client -> server textDocument/documentSymbol in 90ms
+14:43:20.616 [info] Completion for XpPos<<11, 68>>
+14:43:20.642 [info] Local completions are: [function: (utc_today, utc_today)   ]
+14:43:20.642 [info] Emitting Completions: [3:utc_today() 3:utc_today(calendar) ]
+14:43:20.642 [debug] handled request client -> server textDocument/completion in 29ms
+14:43:25.863 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:25.947 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:25.947 [debug] Node port message: 
+14:43:25.947 [info] Plugins found 0 results in 0.007 ms
+
+14:43:25.947 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:26.122 [debug] handled request client -> server textDocument/codeLens in 538µs
+14:43:26.284 [debug] handled request client -> server textDocument/documentSymbol in 69ms
+14:43:26.293 [debug] handled request client -> server textDocument/documentSymbol in 77ms
+14:43:26.358 [debug] handled notification client -> server textDocument/didChange in 778µs
+14:43:26.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:26.409 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:26.409 [debug] Node port message: 
+14:43:26.409 [info] Plugins found 0 results in 0.007 ms
+
+14:43:26.612 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:43:26.711 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:26.722 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:27.117 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:27.170 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:27.170 [debug] Node port message: 
+14:43:27.170 [info] Plugins found 0 results in 0.012 ms
+
+14:43:27.170 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:27.368 [debug] handled request client -> server textDocument/codeLens in 740µs
+14:43:27.464 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:43:27.470 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:27.523 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:27.641 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:27.641 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:27.641 [debug] Node port message: 
+14:43:27.641 [info] Plugins found 0 results in 0.006 ms
+
+14:43:27.773 [debug] handled request client -> server textDocument/codeLens in 306µs
+14:43:27.945 [debug] handled request client -> server textDocument/documentSymbol in 75ms
+14:43:27.950 [debug] handled request client -> server textDocument/documentSymbol in 80ms
+14:43:28.582 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:28.634 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:28.634 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:28.634 [debug] Node port message: 
+14:43:28.634 [info] Plugins found 0 results in 0.007 ms
+
+14:43:28.834 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:43:28.935 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:43:28.935 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:43:29.092 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:43:29.145 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.145 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.145 [debug] Node port message: 
+14:43:29.145 [info] Plugins found 0 results in 0.013 ms
+
+14:43:29.157 [debug] handled notification client -> server textDocument/didChange in 920µs
+14:43:29.236 [debug] handled notification client -> server textDocument/didChange in 919µs
+14:43:29.240 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.240 [debug] Node port message: 
+14:43:29.240 [info] Plugins found 0 results in 0.007 ms
+
+14:43:29.240 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.348 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.348 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:29.348 [debug] Node port message: 
+14:43:29.348 [info] Plugins found 0 results in 0.007 ms
+
+14:43:29.488 [debug] handled request client -> server textDocument/codeLens in 305µs
+14:43:29.665 [debug] handled request client -> server textDocument/documentSymbol in 71ms
+14:43:29.671 [debug] handled request client -> server textDocument/documentSymbol in 77ms
+14:43:33.790 [debug] handled notification client -> server textDocument/didChange in 4ms
+14:43:33.864 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:33.864 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:33.864 [debug] Node port message: 
+14:43:33.864 [info] Plugins found 0 results in 0.006 ms
+
+14:43:34.041 [debug] handled request client -> server textDocument/codeLens in 203µs
+14:43:34.216 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:43:34.217 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:43:34.428 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:34.507 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:34.508 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:34.508 [debug] Node port message: 
+14:43:34.507 [info] Plugins found 0 results in 0.007 ms
+
+14:43:34.681 [debug] handled request client -> server textDocument/codeLens in 425µs
+14:43:34.875 [debug] handled request client -> server textDocument/documentSymbol in 79ms
+14:43:34.876 [debug] handled request client -> server textDocument/documentSymbol in 80ms
+14:43:35.050 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:43:35.129 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:35.129 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:35.129 [debug] Node port message: 
+14:43:35.129 [info] Plugins found 0 results in 0.007 ms
+
+14:43:35.306 [debug] handled request client -> server textDocument/codeLens in 599µs
+14:43:35.491 [debug] handled request client -> server textDocument/documentSymbol in 85ms
+14:43:35.497 [debug] handled request client -> server textDocument/documentSymbol in 92ms
+14:43:36.731 [debug] handled notification client -> server textDocument/didSave in 638µs
+14:43:36.849 [debug] Node port message: 
+14:43:36.849 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:43:36.850 [info] Compiled elixir_playground in 67 ms
+14:43:36.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:36.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:43:36.850 [debug] Node port message: 
+14:43:36.850 [info] Plugins found 0 results in 0.004 ms
+
+14:43:36.997 [debug] handled request client -> server textDocument/codeLens in 341µs
+14:43:37.074 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 425µs
+14:44:04.400 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:44:04.516 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:44:04.516 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:44:04.518 [debug] Node port message: 
+14:44:04.516 [info] Plugins found 0 results in 0.063 ms
+
+14:44:04.655 [debug] handled request client -> server textDocument/codeLens in 517µs
+14:44:04.713 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:44:04.802 [debug] handled request client -> server textDocument/documentSymbol in 50ms
+14:44:10.322 [debug] handled request client -> server textDocument/codeLens in 896µs
+14:44:17.753 [debug] handled request client -> server textDocument/codeLens in 520µs
+14:45:18.963 [debug] handled request client -> server textDocument/codeLens in 391µs
+14:45:22.200 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:45:22.307 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.307 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.307 [debug] Node port message: 
+14:45:22.307 [info] Plugins found 0 results in 0.031 ms
+
+14:45:22.452 [debug] handled request client -> server textDocument/codeLens in 565µs
+14:45:22.497 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:22.512 [info] Completion for XpPos<<10, 6>>
+14:45:22.523 [debug] handled request client -> server textDocument/documentSymbol in 70ms
+14:45:22.544 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure, doctest, doctest, doctest_file, doctest_file, describe)   ]
+14:45:22.546 [info] Emitting Completions: [3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) 3:doctest module 3:doctest module, opts 3:doctest_file(file) 3:doctest_file(file, opts) 7:describe "message" ]
+14:45:22.547 [debug] handled request client -> server textDocument/completion in 37ms
+14:45:22.548 [debug] handled notification client -> server $/cancelRequest in 236µs
+14:45:22.558 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.558 [debug] Node port message: 
+14:45:22.558 [info] Plugins found 0 results in 0.008 ms
+
+14:45:22.558 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.567 [debug] handled notification client -> server textDocument/didChange in 758µs
+14:45:22.641 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.641 [debug] Node port message: 
+14:45:22.641 [info] Plugins found 0 results in 0.006 ms
+
+14:45:22.641 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.711 [debug] handled notification client -> server textDocument/didChange in 844µs
+14:45:22.771 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.771 [debug] Node port message: 
+14:45:22.771 [info] Plugins found 0 results in 0.013 ms
+
+14:45:22.771 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:22.964 [debug] handled request client -> server textDocument/codeLens in 413µs
+14:45:23.011 [debug] handled request client -> server textDocument/documentSymbol in 47ms
+14:45:23.112 [debug] handled request client -> server textDocument/documentSymbol in 45ms
+14:45:23.118 [debug] handled notification client -> server textDocument/didChange in 553µs
+14:45:23.177 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.177 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.177 [debug] Node port message: 
+14:45:23.177 [info] Plugins found 0 results in 0.019 ms
+
+14:45:23.373 [debug] handled request client -> server textDocument/codeLens in 638µs
+14:45:23.407 [debug] handled notification client -> server textDocument/didChange in 722µs
+14:45:23.432 [debug] handled request client -> server textDocument/documentSymbol in 59ms
+14:45:23.484 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.484 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.484 [debug] Node port message: 
+14:45:23.484 [info] Plugins found 0 results in 0.008 ms
+
+14:45:23.660 [debug] handled request client -> server textDocument/codeLens in 598µs
+14:45:23.718 [debug] handled request client -> server textDocument/documentSymbol in 57ms
+14:45:23.808 [debug] handled request client -> server textDocument/documentSymbol in 46ms
+14:45:23.839 [debug] handled notification client -> server textDocument/didChange in 710µs
+14:45:23.900 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.900 [debug] Node port message: 
+14:45:23.900 [info] Plugins found 0 results in 0.006 ms
+
+14:45:23.900 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:23.983 [debug] handled notification client -> server textDocument/didChange in 782µs
+14:45:24.042 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.042 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.043 [debug] Node port message: 
+14:45:24.042 [info] Plugins found 0 results in 0.005 ms
+
+14:45:24.126 [debug] handled notification client -> server textDocument/didChange in 761µs
+14:45:24.187 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.187 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.187 [debug] Node port message: 
+14:45:24.187 [info] Plugins found 0 results in 0.005 ms
+
+14:45:24.379 [debug] handled request client -> server textDocument/codeLens in 460µs
+14:45:24.391 [debug] handled notification client -> server textDocument/didChange in 868µs
+14:45:24.404 [info] Completion for XpPos<<10, 8>>
+14:45:24.435 [info] Local completions are: []
+14:45:24.435 [info] Emitting Completions: []
+14:45:24.435 [debug] handled request client -> server textDocument/completion in 32ms
+14:45:24.451 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:45:24.453 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.453 [debug] Node port message: 
+14:45:24.453 [info] Plugins found 0 results in 0.005 ms
+
+14:45:24.453 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.535 [debug] handled notification client -> server textDocument/didChange in 683µs
+14:45:24.603 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.603 [debug] Node port message: 
+14:45:24.603 [info] Plugins found 0 results in 0.013 ms
+
+14:45:24.603 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.750 [debug] handled notification client -> server textDocument/didChange in 702µs
+14:45:24.827 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.827 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:24.827 [debug] Node port message: 
+14:45:24.827 [info] Plugins found 0 results in 0.006 ms
+
+14:45:24.943 [debug] handled notification client -> server textDocument/didChange in 725µs
+14:45:25.024 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:25.024 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:25.024 [debug] Node port message: 
+14:45:25.023 [info] Plugins found 0 results in 0.005 ms
+
+14:45:25.198 [debug] handled request client -> server textDocument/codeLens in 712µs
+14:45:25.254 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:45:25.345 [debug] handled request client -> server textDocument/documentSymbol in 48ms
+14:45:25.429 [debug] handled notification client -> server textDocument/didChange in 730µs
+14:45:25.503 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:25.503 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:25.503 [debug] Node port message: 
+14:45:25.503 [info] Plugins found 0 results in 0.006 ms
+
+14:45:25.685 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:45:25.730 [debug] handled request client -> server textDocument/documentSymbol in 44ms
+14:45:25.827 [debug] handled request client -> server textDocument/documentSymbol in 46ms
+14:45:30.737 [debug] handled request client -> server textDocument/codeLens in 483µs
+14:45:40.631 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:40.704 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:40.704 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:40.704 [debug] Node port message: 
+14:45:40.704 [info] Plugins found 0 results in 0.005 ms
+
+14:45:40.889 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:45:40.952 [debug] handled request client -> server textDocument/documentSymbol in 63ms
+14:45:41.038 [debug] handled request client -> server textDocument/documentSymbol in 51ms
+14:45:45.950 [debug] handled request client -> server textDocument/codeLens in 934µs
+14:45:45.953 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:45:46.005 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:46.005 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:46.005 [debug] Node port message: 
+14:45:46.005 [info] Plugins found 0 results in 0.008 ms
+
+14:45:46.209 [debug] handled request client -> server textDocument/codeLens in 680µs
+14:45:46.212 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:46.306 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:46.306 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:46.306 [debug] Node port message: 
+14:45:46.305 [info] Plugins found 0 results in 0.008 ms
+
+14:45:46.354 [debug] handled request client -> server textDocument/documentSymbol in 136ms
+14:45:46.467 [debug] handled request client -> server textDocument/codeLens in 351µs
+14:45:46.649 [debug] handled request client -> server textDocument/documentSymbol in 70ms
+14:45:51.067 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:45:51.147 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.147 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.147 [debug] Node port message: 
+14:45:51.147 [info] Plugins found 0 results in 0.006 ms
+
+14:45:51.327 [debug] handled request client -> server textDocument/codeLens in 650µs
+14:45:51.383 [debug] handled request client -> server textDocument/documentSymbol in 56ms
+14:45:51.468 [debug] handled request client -> server textDocument/documentSymbol in 47ms
+14:45:51.610 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:51.628 [info] Completion for XpPos<<11, 6>>
+14:45:51.655 [info] Local completions are: [function: (abs, apply, apply, assert, assert_in_delta, assert_in_delta, assert_raise, assert_raise)   macro: (alias, alias!, and, assert, assert_receive, assert_receive, assert_receive, assert_received, assert_received)   ]
+14:45:51.656 [info] Emitting Completions: [3:abs(number) 3:apply(fun, args) 3:apply(module, function_name, args) 3:assert value, message 3:assert_in_delta value1, value2, delta 3:assert_in_delta value1, value2, delta, message 3:assert_raise exception, function 3:assert_raise exception, message, function 7:alias (alias a module's name) 3:assert assertion 3:assert_receive pattern 3:assert_receive pattern, timeout 3:assert_receive pattern, timeout, failure_message 3:assert_received pattern 3:assert_received pattern, failure_message ]
+14:45:51.656 [debug] handled request client -> server textDocument/completion in 30ms
+14:45:51.669 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.669 [debug] Node port message: 
+14:45:51.669 [info] Plugins found 0 results in 0.008 ms
+
+14:45:51.669 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.713 [debug] handled notification client -> server textDocument/didChange in 6ms
+14:45:51.772 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.772 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.772 [debug] Node port message: 
+14:45:51.772 [info] Plugins found 0 results in 0.007 ms
+
+14:45:51.847 [debug] handled notification client -> server textDocument/didChange in 651µs
+14:45:51.859 [info] Completion for XpPos<<11, 8>>
+14:45:51.879 [info] Local completions are: []
+14:45:51.879 [info] Emitting Completions: []
+14:45:51.879 [debug] handled request client -> server textDocument/completion in 21ms
+14:45:51.906 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:51.906 [debug] Node port message: 
+14:45:51.905 [info] Plugins found 0 results in 0.005 ms
+
+14:45:51.906 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.063 [debug] handled notification client -> server textDocument/didChange in 692µs
+14:45:52.081 [info] Completion for XpPos<<11, 9>>
+14:45:52.108 [info] Local completions are: []
+14:45:52.108 [info] Emitting Completions: []
+14:45:52.108 [debug] handled request client -> server textDocument/completion in 29ms
+14:45:52.122 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.123 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.123 [debug] Node port message: 
+14:45:52.122 [info] Plugins found 0 results in 0.007 ms
+
+14:45:52.183 [debug] handled notification client -> server textDocument/didChange in 627µs
+14:45:52.196 [info] Completion for XpPos<<11, 10>>
+14:45:52.216 [info] Local completions are: []
+14:45:52.216 [info] Emitting Completions: []
+14:45:52.216 [debug] handled request client -> server textDocument/completion in 21ms
+14:45:52.241 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.241 [debug] Node port message: 
+14:45:52.241 [info] Plugins found 0 results in 0.004 ms
+
+14:45:52.241 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.304 [debug] handled notification client -> server textDocument/didChange in 760µs
+14:45:52.317 [info] Completion for XpPos<<11, 11>>
+14:45:52.338 [info] Local completions are: []
+14:45:52.338 [info] Emitting Completions: []
+14:45:52.338 [debug] handled request client -> server textDocument/completion in 23ms
+14:45:52.361 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.361 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.361 [debug] Node port message: 
+14:45:52.361 [info] Plugins found 0 results in 0.004 ms
+
+14:45:52.375 [debug] handled notification client -> server textDocument/didChange in 688µs
+14:45:52.393 [info] Completion for XpPos<<11, 12>>
+14:45:52.412 [info] Local completions are: []
+14:45:52.412 [info] Emitting Completions: []
+14:45:52.412 [debug] handled request client -> server textDocument/completion in 20ms
+14:45:52.433 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.433 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:52.433 [debug] Node port message: 
+14:45:52.433 [info] Plugins found 0 results in 0.005 ms
+
+14:45:52.628 [debug] handled request client -> server textDocument/codeLens in 790µs
+14:45:52.690 [debug] handled request client -> server textDocument/documentSymbol in 61ms
+14:45:52.777 [debug] handled request client -> server textDocument/documentSymbol in 49ms
+14:45:52.961 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:53.039 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.039 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.039 [debug] Node port message: 
+14:45:53.039 [info] Plugins found 0 results in 0.005 ms
+
+14:45:53.215 [debug] handled request client -> server textDocument/codeLens in 590µs
+14:45:53.273 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:45:53.366 [debug] handled request client -> server textDocument/documentSymbol in 51ms
+14:45:53.679 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:45:53.699 [debug] handled notification client -> server textDocument/didSave in 706µs
+14:45:53.815 [debug] Node port message: 
+14:45:53.815 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:45:53.815 [info] Compiled elixir_playground in 65 ms
+14:45:53.815 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.815 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.815 [debug] Node port message: 
+14:45:53.815 [info] Plugins found 0 results in 0.005 ms
+
+14:45:53.835 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.836 [debug] Node port message: 
+14:45:53.835 [info] Plugins found 0 results in 0.005 ms
+
+14:45:53.836 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:45:53.953 [debug] handled request client -> server textDocument/codeLens in 360µs
+14:45:54.008 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:45:54.084 [debug] handled request client -> server textDocument/documentSymbol in 51ms
+14:45:54.085 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 352µs
+14:46:01.265 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:46:01.316 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:01.316 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:01.316 [debug] Node port message: 
+14:46:01.316 [info] Plugins found 0 results in 0.039 ms
+
+14:46:01.524 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:01.604 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:01.605 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:01.605 [debug] Node port message: 
+14:46:01.604 [info] Plugins found 0 results in 0.006 ms
+
+14:46:01.780 [debug] handled request client -> server textDocument/codeLens in 608µs
+14:46:01.838 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:46:01.983 [debug] handled request client -> server textDocument/documentSymbol in 106ms
+14:46:03.154 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:46:03.266 [debug] Node port message: 
+14:46:03.266 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:46:03.266 [info] Compiled elixir_playground in 61 ms
+14:46:03.266 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:03.266 [debug] Node port message: 
+14:46:03.266 [info] Plugins found 0 results in 0.005 ms
+
+14:46:03.266 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:03.406 [debug] handled request client -> server textDocument/codeLens in 254µs
+14:46:03.480 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 365µs
+14:46:05.250 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:46:05.306 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.306 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.306 [debug] Node port message: 
+14:46:05.306 [info] Plugins found 0 results in 0.009 ms
+
+14:46:05.410 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:05.430 [info] Completion for XpPos<<17, 15>>
+14:46:05.461 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure, doctest, doctest, doctest_file, doctest_file, describe)   variable: (day)   ]
+14:46:05.463 [info] Emitting Completions: [6:day 3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) 3:doctest module 3:doctest module, opts 3:doctest_file(file) 3:doctest_file(file, opts) 7:describe "message" ]
+14:46:05.464 [debug] handled request client -> server textDocument/completion in 36ms
+14:46:05.471 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.471 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.471 [debug] Node port message: 
+14:46:05.471 [info] Plugins found 0 results in 0.006 ms
+
+14:46:05.558 [debug] handled notification client -> server textDocument/didChange in 840µs
+14:46:05.617 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.617 [debug] Node port message: 
+14:46:05.617 [info] Plugins found 0 results in 0.007 ms
+
+14:46:05.617 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.806 [debug] handled request client -> server textDocument/codeLens in 448µs
+14:46:05.861 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:46:05.910 [debug] handled notification client -> server textDocument/didChange in 605µs
+14:46:05.959 [debug] handled request client -> server textDocument/documentSymbol in 53ms
+14:46:05.969 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.969 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:05.969 [debug] Node port message: 
+14:46:05.969 [info] Plugins found 0 results in 0.007 ms
+
+14:46:06.169 [debug] handled request client -> server textDocument/codeLens in 593µs
+14:46:06.225 [debug] handled request client -> server textDocument/documentSymbol in 56ms
+14:46:06.328 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:46:06.683 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:06.746 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:06.746 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:06.746 [debug] Node port message: 
+14:46:06.746 [info] Plugins found 0 results in 0.008 ms
+
+14:46:06.940 [debug] handled request client -> server textDocument/codeLens in 722µs
+14:46:06.945 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:06.963 [info] Completion for XpPos<<17, 17>>
+14:46:07.004 [info] Local completions are: [variable: (day)   ]
+14:46:07.004 [info] Emitting Completions: [6:day ]
+14:46:07.005 [debug] handled request client -> server textDocument/completion in 44ms
+14:46:07.028 [debug] handled request client -> server textDocument/documentSymbol in 88ms
+14:46:07.033 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:07.033 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:07.033 [debug] Node port message: 
+14:46:07.033 [info] Plugins found 0 results in 0.005 ms
+
+14:46:07.201 [debug] handled request client -> server textDocument/codeLens in 466µs
+14:46:07.257 [debug] handled request client -> server textDocument/documentSymbol in 56ms
+14:46:07.358 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:46:08.420 [debug] handled notification client -> server textDocument/didChange in 6ms
+14:46:08.472 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.472 [debug] Node port message: 
+14:46:08.472 [info] Plugins found 0 results in 0.01 ms
+
+14:46:08.472 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.674 [debug] handled request client -> server textDocument/codeLens in 716µs
+14:46:08.675 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:46:08.782 [debug] handled request client -> server textDocument/documentSymbol in 985µs
+14:46:08.794 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:08.815 [info] Completion for XpPos<<18, 15>>
+14:46:08.842 [info] Local completions are: [function: (abs, apply, apply, assert, assert_in_delta, assert_in_delta, assert_raise, assert_raise)   macro: (alias, alias!, and, assert, assert_receive, assert_receive, assert_receive, assert_received, assert_received)   variable: (another_day)   ]
+14:46:08.843 [info] Emitting Completions: [6:another_day 3:abs(number) 3:apply(fun, args) 3:apply(module, function_name, args) 3:assert value, message 3:assert_in_delta value1, value2, delta 3:assert_in_delta value1, value2, delta, message 3:assert_raise exception, function 3:assert_raise exception, message, function 7:alias (alias a module's name) 3:assert assertion 3:assert_receive pattern 3:assert_receive pattern, timeout 3:assert_receive pattern, timeout, failure_message 3:assert_received pattern 3:assert_received pattern, failure_message ]
+14:46:08.844 [debug] handled request client -> server textDocument/completion in 31ms
+14:46:08.855 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.855 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.855 [debug] Node port message: 
+14:46:08.855 [info] Plugins found 0 results in 0.007 ms
+
+14:46:08.889 [debug] handled notification client -> server textDocument/didChange in 911µs
+14:46:08.948 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.948 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:08.948 [debug] Node port message: 
+14:46:08.948 [info] Plugins found 0 results in 0.006 ms
+
+14:46:09.007 [debug] handled notification client -> server textDocument/didChange in 664µs
+14:46:09.054 [debug] handled notification client -> server textDocument/didChange in 721µs
+14:46:09.113 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.113 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.113 [debug] Node port message: 
+14:46:09.113 [info] Plugins found 0 results in 0.006 ms
+
+14:46:09.223 [debug] handled notification client -> server textDocument/didChange in 705µs
+14:46:09.283 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.284 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.284 [debug] Node port message: 
+14:46:09.283 [info] Plugins found 0 results in 0.007 ms
+
+14:46:09.476 [debug] handled request client -> server textDocument/codeLens in 623µs
+14:46:09.533 [debug] handled request client -> server textDocument/documentSymbol in 57ms
+14:46:09.536 [debug] handled notification client -> server textDocument/didChange in 582µs
+14:46:09.588 [debug] handled notification client -> server $/cancelRequest in 209µs
+14:46:09.623 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.623 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:09.623 [debug] Node port message: 
+14:46:09.623 [info] Plugins found 0 results in 0.012 ms
+
+14:46:09.791 [debug] handled request client -> server textDocument/codeLens in 414µs
+14:46:09.846 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:46:09.902 [debug] handled notification client -> server textDocument/didSave in 738µs
+14:46:09.945 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:46:10.061 [debug] Node port message: 
+14:46:10.061 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:46:10.061 [info] Compiled elixir_playground in 108 ms
+14:46:10.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:10.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:10.061 [debug] Node port message: 
+14:46:10.061 [info] Plugins found 0 results in 0.004 ms
+
+14:46:10.154 [debug] handled request client -> server textDocument/codeLens in 251µs
+14:46:10.239 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 379µs
+14:46:21.478 [debug] handled request client -> server textDocument/codeLens in 376µs
+14:46:25.712 [debug] handled request client -> server textDocument/codeLens in 493µs
+14:46:30.309 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:30.392 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.392 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.392 [debug] Node port message: 
+14:46:30.392 [info] Plugins found 0 results in 0.006 ms
+
+14:46:30.563 [debug] handled request client -> server textDocument/codeLens in 733µs
+14:46:30.628 [debug] handled request client -> server textDocument/documentSymbol in 65ms
+14:46:30.714 [debug] handled request client -> server textDocument/documentSymbol in 52ms
+14:46:30.800 [debug] handled notification client -> server textDocument/didChange in 785µs
+14:46:30.814 [info] Completion for XpPos<<23, 6>>
+14:46:30.839 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure, doctest, doctest, doctest_file, doctest_file, describe)   ]
+14:46:30.841 [info] Emitting Completions: [3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) 3:doctest module 3:doctest module, opts 3:doctest_file(file) 3:doctest_file(file, opts) 7:describe "message" ]
+14:46:30.842 [debug] handled request client -> server textDocument/completion in 29ms
+14:46:30.896 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.896 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.896 [debug] Node port message: 
+14:46:30.895 [info] Plugins found 0 results in 0.007 ms
+
+14:46:30.924 [debug] handled notification client -> server textDocument/didChange in 858µs
+14:46:30.983 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.983 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:30.983 [debug] Node port message: 
+14:46:30.983 [info] Plugins found 0 results in 0.005 ms
+
+14:46:31.039 [debug] handled notification client -> server textDocument/didChange in 577µs
+14:46:31.059 [info] Completion for XpPos<<23, 8>>
+14:46:31.078 [info] Local completions are: []
+14:46:31.078 [info] Emitting Completions: []
+14:46:31.079 [debug] handled request client -> server textDocument/completion in 21ms
+14:46:31.097 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.097 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.097 [debug] Node port message: 
+14:46:31.097 [info] Plugins found 0 results in 0.005 ms
+
+14:46:31.231 [debug] handled notification client -> server textDocument/didChange in 844µs
+14:46:31.292 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.292 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.292 [debug] Node port message: 
+14:46:31.292 [info] Plugins found 0 results in 0.007 ms
+
+14:46:31.474 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:31.552 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.552 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.552 [debug] Node port message: 
+14:46:31.552 [info] Plugins found 0 results in 0.007 ms
+
+14:46:31.622 [debug] handled notification client -> server textDocument/didChange in 720µs
+14:46:31.696 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.696 [debug] Node port message: 
+14:46:31.696 [info] Plugins found 0 results in 0.006 ms
+
+14:46:31.696 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.876 [debug] handled request client -> server textDocument/codeLens in 590µs
+14:46:31.905 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:31.944 [debug] handled request client -> server textDocument/documentSymbol in 67ms
+14:46:31.965 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.965 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:31.965 [debug] Node port message: 
+14:46:31.965 [info] Plugins found 0 results in 0.009 ms
+
+14:46:32.164 [debug] handled request client -> server textDocument/codeLens in 476µs
+14:46:32.226 [debug] handled request client -> server textDocument/documentSymbol in 61ms
+14:46:32.331 [debug] handled request client -> server textDocument/documentSymbol in 71ms
+14:46:33.282 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:46:33.364 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:33.364 [debug] Node port message: 
+14:46:33.363 [info] Plugins found 0 results in 0.008 ms
+
+14:46:33.364 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:33.530 [debug] handled request client -> server textDocument/codeLens in 489µs
+14:46:33.588 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:46:33.676 [debug] handled request client -> server textDocument/documentSymbol in 47ms
+14:46:34.026 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:46:34.047 [info] Completion for XpPos<<23, 12>>
+14:46:34.074 [info] Local completions are: [behaviour: (Module)   exception: (MatchError, MismatchedDelimiterError, MissingApplicationsError)   module: (Macro, Map, Mint, Mix, MyList)   struct: (MapSet)   ]
+14:46:34.074 [info] Emitting Completions: [9:Macro 9:Map 9:MapSet 9:Mint 9:Mix 9:Module 9:MyList ]
+14:46:34.075 [debug] handled request client -> server textDocument/completion in 30ms
+14:46:34.101 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.101 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.101 [debug] Node port message: 
+14:46:34.101 [info] Plugins found 0 results in 0.007 ms
+
+14:46:34.282 [debug] handled request client -> server textDocument/codeLens in 698µs
+14:46:34.327 [debug] handled notification client -> server textDocument/didChange in 752µs
+14:46:34.346 [debug] handled request client -> server textDocument/documentSymbol in 64ms
+14:46:34.378 [debug] handled notification client -> server $/cancelRequest in 308µs
+14:46:34.412 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.412 [debug] Node port message: 
+14:46:34.412 [info] Plugins found 0 results in 0.007 ms
+
+14:46:34.412 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.567 [debug] handled notification client -> server textDocument/didChange in 963µs
+14:46:34.593 [info] Completion for XpPos<<23, 12>>
+14:46:34.651 [info] Local completions are: [module: (Dict)   struct: (Date, DateTime, Duration, DynamicSupervisor)   ]
+14:46:34.652 [info] Emitting Completions: [9:Date 9:DateTime 9:Dict 9:Duration 9:DynamicSupervisor ]
+14:46:34.653 [debug] handled request client -> server textDocument/completion in 70ms
+14:46:34.664 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.664 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.665 [debug] Node port message: 
+14:46:34.664 [info] Plugins found 0 results in 0.005 ms
+
+14:46:34.736 [debug] handled notification client -> server textDocument/didChange in 634µs
+14:46:34.811 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.811 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.811 [debug] Node port message: 
+14:46:34.811 [info] Plugins found 0 results in 0.005 ms
+
+14:46:34.831 [debug] handled notification client -> server textDocument/didChange in 649µs
+14:46:34.903 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.903 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.903 [debug] Node port message: 
+14:46:34.903 [info] Plugins found 0 results in 0.005 ms
+
+14:46:34.926 [debug] handled notification client -> server textDocument/didChange in 609µs
+14:46:34.997 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.997 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:34.997 [debug] Node port message: 
+14:46:34.997 [info] Plugins found 0 results in 0.004 ms
+
+14:46:35.070 [debug] handled notification client -> server textDocument/didChange in 721µs
+14:46:35.074 [info] Completion for XpPos<<23, 16>>
+14:46:35.097 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, after?, before?, beginning_of_month, beginning_of_week, beginning_of_week, compare, convert, convert!, day_of_era, day_of_week, day_of_week, day_of_year, days_in_month, diff, end_of_month, end_of_week, end_of_week, from_erl, from_erl, from_erl!, from_erl!, from_gregorian_days, from_gregorian_days, from_iso8601, from_iso8601, from_iso8601!, from_iso8601!, leap_year?, module_info, module_info, months_in_year, new, new, new!, new!, quarter_of_year, range, range, shift, to_erl, to_gregorian_days, to_iso8601, to_iso8601, to_iso_days, to_string, utc_today, utc_today, year_of_era)   struct: (Range)   ]
+14:46:35.100 [info] Emitting Completions: [9:Range 3:__duration__!(duration) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(date, days) 3:after?(date1, date2) 3:before?(date1, date2) 3:beginning_of_month(date) 3:beginning_of_week(date) 3:beginning_of_week(date, starting_on) 3:compare(date1, date2) 3:convert(date, calendar) 3:convert!(date, calendar) 3:day_of_era(date) 3:day_of_week(date) 3:day_of_week(date, starting_on) 3:day_of_year(date) 3:days_in_month(date) 3:diff(date1, date2) 3:end_of_month(date) 3:end_of_week(date) 3:end_of_week(date, starting_on) 3:from_erl(tuple) 3:from_erl(tuple, calendar) 3:from_erl!(tuple) 3:from_erl!(tuple, calendar) 3:from_gregorian_days(days) 3:from_gregorian_days(days, calendar) 3:from_iso8601(string) 3:from_iso8601(string, calendar) 3:from_iso8601!(string) 3:from_iso8601!(string, calendar) 3:leap_year?(date) 3:module_info() 3:module_info(key) 3:months_in_year(date) 3:new(year, month, day) 3:new(year, month, day, calendar) 3:new!(year, month, day) 3:new!(year, month, day, calendar) 3:quarter_of_year(date) 3:range(first, last) 3:range(first, last, step) 3:shift(date, duration) 3:to_erl(date) 3:to_gregorian_days(date) 3:to_iso8601(date) 3:to_iso8601(date, format) 3:to_iso_days(map) 3:to_string(date) 3:utc_today() 3:utc_today(calendar) 3:year_of_era(date) ]
+14:46:35.101 [debug] handled request client -> server textDocument/completion in 29ms
+14:46:35.126 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:35.126 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:35.126 [debug] Node port message: 
+14:46:35.126 [info] Plugins found 0 results in 0.004 ms
+
+14:46:35.323 [debug] handled request client -> server textDocument/codeLens in 793µs
+14:46:35.381 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:46:35.478 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:46:38.033 [info] Completion for XpPos<<23, 16>>
+14:46:38.075 [info] Local completions are: [function: (__duration__!, __info__, __struct__, __struct__, add, after?, before?, beginning_of_month, beginning_of_week, beginning_of_week, compare, convert, convert!, day_of_era, day_of_week, day_of_week, day_of_year, days_in_month, diff, end_of_month, end_of_week, end_of_week, from_erl, from_erl, from_erl!, from_erl!, from_gregorian_days, from_gregorian_days, from_iso8601, from_iso8601, from_iso8601!, from_iso8601!, leap_year?, module_info, module_info, months_in_year, new, new, new!, new!, quarter_of_year, range, range, shift, to_erl, to_gregorian_days, to_iso8601, to_iso8601, to_iso_days, to_string, utc_today, utc_today, year_of_era)   struct: (Range)   ]
+14:46:38.078 [info] Emitting Completions: [9:Range 3:__duration__!(duration) 3:__info__(atom) 3:__struct__() 3:__struct__(kv) 3:add(date, days) 3:after?(date1, date2) 3:before?(date1, date2) 3:beginning_of_month(date) 3:beginning_of_week(date) 3:beginning_of_week(date, starting_on) 3:compare(date1, date2) 3:convert(date, calendar) 3:convert!(date, calendar) 3:day_of_era(date) 3:day_of_week(date) 3:day_of_week(date, starting_on) 3:day_of_year(date) 3:days_in_month(date) 3:diff(date1, date2) 3:end_of_month(date) 3:end_of_week(date) 3:end_of_week(date, starting_on) 3:from_erl(tuple) 3:from_erl(tuple, calendar) 3:from_erl!(tuple) 3:from_erl!(tuple, calendar) 3:from_gregorian_days(days) 3:from_gregorian_days(days, calendar) 3:from_iso8601(string) 3:from_iso8601(string, calendar) 3:from_iso8601!(string) 3:from_iso8601!(string, calendar) 3:leap_year?(date) 3:module_info() 3:module_info(key) 3:months_in_year(date) 3:new(year, month, day) 3:new(year, month, day, calendar) 3:new!(year, month, day) 3:new!(year, month, day, calendar) 3:quarter_of_year(date) 3:range(first, last) 3:range(first, last, step) 3:shift(date, duration) 3:to_erl(date) 3:to_gregorian_days(date) 3:to_iso8601(date) 3:to_iso8601(date, format) 3:to_iso_days(map) 3:to_string(date) 3:utc_today() 3:utc_today(calendar) 3:year_of_era(date) ]
+14:46:38.080 [debug] handled request client -> server textDocument/completion in 49ms
+14:46:38.896 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:46:38.975 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:38.975 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:38.975 [debug] Node port message: 
+14:46:38.974 [info] Plugins found 0 results in 0.005 ms
+
+14:46:39.030 [debug] handled notification client -> server textDocument/didChange in 671µs
+14:46:39.115 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:39.115 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:39.115 [debug] Node port message: 
+14:46:39.115 [info] Plugins found 0 results in 0.005 ms
+
+14:46:39.285 [debug] handled request client -> server textDocument/codeLens in 515µs
+14:46:39.336 [debug] handled request client -> server textDocument/documentSymbol in 51ms
+14:46:39.435 [debug] handled request client -> server textDocument/documentSymbol in 49ms
+14:46:39.488 [debug] handled notification client -> server textDocument/didChange in 647µs
+14:46:39.566 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:39.566 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:39.566 [debug] Node port message: 
+14:46:39.566 [info] Plugins found 0 results in 0.006 ms
+
+14:46:39.742 [debug] handled request client -> server textDocument/codeLens in 403µs
+14:46:39.793 [debug] handled request client -> server textDocument/documentSymbol in 50ms
+14:46:39.893 [debug] handled request client -> server textDocument/documentSymbol in 49ms
+14:46:44.805 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:46:46.218 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:46:46.239 [info] Completion for XpPos<<24, 41>>
+14:46:46.268 [info] Local completions are: [function: (==, ===, =~)   macro: (=)   ]
+14:46:46.268 [info] Emitting Completions: []
+14:46:46.269 [debug] handled request client -> server textDocument/completion in 32ms
+14:46:46.269 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:46.269 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:46.269 [debug] Node port message: 
+14:46:46.269 [info] Plugins found 0 results in 0.005 ms
+
+14:46:46.472 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:46:46.473 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:46:46.573 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:46:46.985 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:46:47.038 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:47.038 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:47.039 [debug] Node port message: 
+14:46:47.038 [info] Plugins found 0 results in 0.019 ms
+
+14:46:47.246 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:46:47.249 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:46:47.341 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:46:47.440 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:47.521 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:47.521 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:47.521 [debug] Node port message: 
+14:46:47.521 [info] Plugins found 0 results in 0.008 ms
+
+14:46:47.694 [debug] handled request client -> server textDocument/codeLens in 678µs
+14:46:47.752 [debug] handled request client -> server textDocument/documentSymbol in 58ms
+14:46:47.845 [debug] handled request client -> server textDocument/documentSymbol in 52ms
+14:46:49.553 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:46:49.605 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:49.605 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:49.605 [debug] Node port message: 
+14:46:49.605 [info] Plugins found 0 results in 0.008 ms
+
+14:46:49.736 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:46:49.819 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:49.819 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:49.819 [debug] Node port message: 
+14:46:49.819 [info] Plugins found 0 results in 0.007 ms
+
+14:46:49.989 [debug] handled request client -> server textDocument/codeLens in 484µs
+14:46:50.048 [debug] handled request client -> server textDocument/documentSymbol in 59ms
+14:46:50.140 [debug] handled request client -> server textDocument/documentSymbol in 48ms
+14:46:50.151 [debug] handled notification client -> server textDocument/didSave in 524µs
+14:46:50.267 [debug] Node port message: 
+14:46:50.267 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:46:50.267 [info] Compiled elixir_playground in 65 ms
+14:46:50.267 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:50.267 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:50.267 [debug] Node port message: 
+14:46:50.267 [info] Plugins found 0 results in 0.005 ms
+
+14:46:50.403 [debug] handled request client -> server textDocument/codeLens in 364µs
+14:46:50.541 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 395µs
+14:46:55.735 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:46:56.476 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:46:56.589 [debug] Node port message: 
+14:46:56.589 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:46:56.589 [info] Compiled elixir_playground in 62 ms
+14:46:56.589 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:56.589 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:46:56.590 [debug] Node port message: 
+14:46:56.589 [info] Plugins found 0 results in 0.007 ms
+
+14:46:56.736 [debug] handled request client -> server textDocument/codeLens in 467µs
+14:46:56.807 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 389µs
