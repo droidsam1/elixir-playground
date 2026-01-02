@@ -7,11 +7,13 @@ defmodule SimpleTodo do
     initial_state
   end
 
-  def add(initial_state, id, todo_task) do
-    Map.put(initial_state, id, todo_task)
+  @spec add(map(), Date.t(), String.t()) :: map()
+  def add(initial_state, day, todo_task) do
+    Map.put(initial_state, day, todo_task)
   end
 
-  def get(initial_state, id) do
-    Map.get(initial_state, id)
+  @spec get(map(), Date.t()) :: String.t() | nil
+  def get(initial_state, day) do
+    Map.get(initial_state, day)
   end
 end

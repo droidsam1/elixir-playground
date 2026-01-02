@@ -19928,3 +19928,970 @@ Type: :worker
 
 14:46:56.736 [debug] handled request client -> server textDocument/codeLens in 467µs
 14:46:56.807 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 389µs
+14:47:18.315 [debug] handled request client -> server textDocument/codeLens in 318µs
+14:47:18.401 [debug] handled request client -> server textDocument/documentSymbol in 51ms
+14:47:26.921 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:47:27.001 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:27.002 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:27.002 [debug] Node port message: 
+14:47:27.001 [info] Plugins found 0 results in 0.012 ms
+
+14:47:27.183 [debug] handled request client -> server textDocument/codeLens in 487µs
+14:47:27.351 [debug] handled request client -> server textDocument/documentSymbol in 71ms
+14:47:27.358 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:47:37.531 [debug] handled notification client -> server textDocument/didChange in 6ms
+14:47:37.612 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:37.612 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:37.612 [debug] Node port message: 
+14:47:37.611 [info] Plugins found 0 results in 0.014 ms
+
+14:47:37.783 [debug] handled request client -> server textDocument/codeLens in 503µs
+14:47:37.953 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:47:37.955 [debug] handled request client -> server textDocument/documentSymbol in 74ms
+14:47:40.790 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:47:40.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:40.851 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:40.851 [debug] Node port message: 
+14:47:40.850 [info] Plugins found 0 results in 0.008 ms
+
+14:47:40.975 [debug] handled notification client -> server textDocument/didChange in 878µs
+14:47:41.027 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.027 [debug] Node port message: 
+14:47:41.027 [info] Plugins found 0 results in 0.008 ms
+
+14:47:41.027 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.046 [debug] handled notification client -> server textDocument/didChange in 860µs
+14:47:41.059 [info] Completion for XpPos<<10, 27>>
+14:47:41.078 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure)   ]
+14:47:41.080 [info] Emitting Completions: [3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) ]
+14:47:41.080 [debug] handled request client -> server textDocument/completion in 22ms
+14:47:41.104 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.105 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.105 [debug] Node port message: 
+14:47:41.104 [info] Plugins found 0 results in 0.009 ms
+
+14:47:41.190 [debug] handled notification client -> server textDocument/didChange in 726µs
+14:47:41.281 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.281 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.281 [debug] Node port message: 
+14:47:41.281 [info] Plugins found 0 results in 0.01 ms
+
+14:47:41.382 [debug] handled notification client -> server textDocument/didChange in 751µs
+14:47:41.439 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.439 [debug] Node port message: 
+14:47:41.439 [info] Plugins found 0 results in 0.007 ms
+
+14:47:41.440 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:41.640 [debug] handled request client -> server textDocument/codeLens in 515µs
+14:47:41.807 [debug] handled request client -> server textDocument/documentSymbol in 69ms
+14:47:41.810 [debug] handled request client -> server textDocument/documentSymbol in 67ms
+14:47:42.879 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:47:42.941 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:42.941 [debug] Node port message: 
+14:47:42.941 [info] Plugins found 0 results in 0.007 ms
+
+14:47:42.941 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:43.137 [debug] handled request client -> server textDocument/codeLens in 600µs
+14:47:43.311 [debug] handled request client -> server textDocument/documentSymbol in 79ms
+14:47:43.315 [debug] handled request client -> server textDocument/documentSymbol in 82ms
+14:47:43.424 [debug] handled notification client -> server textDocument/didChange in 983µs
+14:47:43.443 [info] Completion for XpPos<<10, 29>>
+14:47:43.499 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:43.499 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:43.500 [debug] Node port message: 
+14:47:43.499 [info] Plugins found 0 results in 0.01 ms
+
+14:47:43.500 [info] Local completions are: []
+14:47:43.501 [info] Emitting Completions: []
+14:47:43.501 [debug] handled request client -> server textDocument/completion in 59ms
+14:47:43.677 [debug] handled request client -> server textDocument/codeLens in 438µs
+14:47:43.855 [debug] handled request client -> server textDocument/documentSymbol in 77ms
+14:47:43.860 [debug] handled request client -> server textDocument/documentSymbol in 82ms
+14:47:45.610 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:47:45.670 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.670 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.670 [debug] Node port message: 
+14:47:45.670 [info] Plugins found 0 results in 0.008 ms
+
+14:47:45.775 [debug] handled notification client -> server textDocument/didChange in 832µs
+14:47:45.827 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.827 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.827 [debug] Node port message: 
+14:47:45.827 [info] Plugins found 0 results in 0.008 ms
+
+14:47:45.896 [debug] handled notification client -> server textDocument/didChange in 991µs
+14:47:45.910 [info] Completion for XpPos<<11, 29>>
+14:47:45.929 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure)   variable: (day)   ]
+14:47:45.931 [info] Emitting Completions: [6:day 3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) ]
+14:47:45.931 [debug] handled request client -> server textDocument/completion in 22ms
+14:47:45.955 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.955 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:45.955 [debug] Node port message: 
+14:47:45.955 [info] Plugins found 0 results in 0.008 ms
+
+14:47:46.016 [debug] handled notification client -> server textDocument/didChange in 689µs
+14:47:46.082 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:46.082 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:46.082 [debug] Node port message: 
+14:47:46.081 [info] Plugins found 0 results in 0.009 ms
+
+14:47:46.134 [debug] handled notification client -> server textDocument/didChange in 776µs
+14:47:46.209 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:46.209 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:46.210 [debug] Node port message: 
+14:47:46.209 [info] Plugins found 0 results in 0.005 ms
+
+14:47:46.386 [debug] handled request client -> server textDocument/codeLens in 371µs
+14:47:46.560 [debug] handled request client -> server textDocument/documentSymbol in 68ms
+14:47:46.565 [debug] handled request client -> server textDocument/documentSymbol in 73ms
+14:47:48.279 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:47:48.337 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.337 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.337 [debug] Node port message: 
+14:47:48.337 [info] Plugins found 0 results in 0.009 ms
+
+14:47:48.421 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:47:48.473 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.473 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.473 [debug] Node port message: 
+14:47:48.473 [info] Plugins found 0 results in 0.01 ms
+
+14:47:48.511 [debug] handled notification client -> server textDocument/didChange in 859µs
+14:47:48.524 [info] Completion for XpPos<<14, 27>>
+14:47:48.545 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure)   ]
+14:47:48.546 [info] Emitting Completions: [3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) ]
+14:47:48.547 [debug] handled request client -> server textDocument/completion in 24ms
+14:47:48.570 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.570 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.570 [debug] Node port message: 
+14:47:48.570 [info] Plugins found 0 results in 0.006 ms
+
+14:47:48.591 [debug] handled notification client -> server textDocument/didChange in 796µs
+14:47:48.648 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.649 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.649 [debug] Node port message: 
+14:47:48.648 [info] Plugins found 0 results in 0.008 ms
+
+14:47:48.727 [debug] handled notification client -> server textDocument/didChange in 741µs
+14:47:48.740 [info] Completion for XpPos<<14, 29>>
+14:47:48.757 [info] Local completions are: []
+14:47:48.757 [info] Emitting Completions: []
+14:47:48.757 [debug] handled request client -> server textDocument/completion in 18ms
+14:47:48.784 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.784 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:48.784 [debug] Node port message: 
+14:47:48.784 [info] Plugins found 0 results in 0.007 ms
+
+14:47:48.982 [debug] handled request client -> server textDocument/codeLens in 493µs
+14:47:49.163 [debug] handled request client -> server textDocument/documentSymbol in 84ms
+14:47:49.164 [debug] handled request client -> server textDocument/documentSymbol in 84ms
+14:47:50.725 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:47:50.786 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:50.786 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:50.786 [debug] Node port message: 
+14:47:50.786 [info] Plugins found 0 results in 0.008 ms
+
+14:47:50.887 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:47:50.938 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:50.938 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:50.939 [debug] Node port message: 
+14:47:50.938 [info] Plugins found 0 results in 0.006 ms
+
+14:47:51.139 [debug] handled request client -> server textDocument/codeLens in 638µs
+14:47:51.243 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:47:51.243 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:47:51.282 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:47:51.295 [info] Completion for XpPos<<15, 29>>
+14:47:51.318 [info] Local completions are: [function: (div)   macro: (dbg, dbg, dbg, def, def, defdelegate, defexception, defguard, defguardp, defimpl, defimpl, defmacro, defmacro, defmacrop, defmacrop, defmodule, defoverridable, defp, defp, defprotocol, defstruct, destructure)   variable: (day)   ]
+14:47:51.320 [info] Emitting Completions: [6:day 3:div(dividend, divisor) 3:dbg() 3:dbg(code) 3:dbg(code, options) 7:def (define a function) 7:defdelegate (define a delegate function) 7:defexception (define an exception) 7:defguard (define a guard macro) 7:defguardp (define a private guard macro) 7:defimpl (define a protocol implementation) 7:defmacro (define a macro) 7:defmacrop (define a private macro) 7:defmodule (define a module) 7:defoverridable (mark a function as overridable) 7:defp (define a private function) 7:defprotocol (define a protocol) 7:defstruct (define a struct) ]
+14:47:51.321 [debug] handled request client -> server textDocument/completion in 28ms
+14:47:51.339 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.339 [debug] Node port message: 
+14:47:51.339 [info] Plugins found 0 results in 0.008 ms
+
+14:47:51.339 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.390 [debug] handled notification client -> server textDocument/didChange in 756µs
+14:47:51.447 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.447 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.447 [debug] Node port message: 
+14:47:51.447 [info] Plugins found 0 results in 0.007 ms
+
+14:47:51.463 [debug] handled notification client -> server textDocument/didChange in 736µs
+14:47:51.528 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.528 [debug] Node port message: 
+14:47:51.528 [info] Plugins found 0 results in 0.005 ms
+
+14:47:51.528 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:51.718 [debug] handled request client -> server textDocument/codeLens in 331µs
+14:47:51.888 [debug] handled request client -> server textDocument/documentSymbol in 71ms
+14:47:51.894 [debug] handled request client -> server textDocument/documentSymbol in 76ms
+14:47:55.934 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:47:56.007 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:56.007 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:56.007 [debug] Node port message: 
+14:47:56.007 [info] Plugins found 0 results in 0.005 ms
+
+14:47:56.185 [debug] handled request client -> server textDocument/codeLens in 630µs
+14:47:56.359 [debug] handled request client -> server textDocument/documentSymbol in 72ms
+14:47:56.363 [debug] handled request client -> server textDocument/documentSymbol in 77ms
+14:47:56.431 [debug] handled notification client -> server textDocument/didChange in 842µs
+14:47:56.433 [info] Emitting Completions: []
+14:47:56.433 [debug] handled request client -> server textDocument/completion in 1ms
+14:47:56.483 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:56.483 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:56.483 [debug] Node port message: 
+14:47:56.482 [info] Plugins found 0 results in 0.007 ms
+
+14:47:56.686 [debug] handled request client -> server textDocument/codeLens in 833µs
+14:47:56.787 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:47:56.787 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:47:57.859 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:47:57.910 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:57.910 [debug] Node port message: 
+14:47:57.910 [info] Plugins found 0 results in 0.005 ms
+
+14:47:57.910 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:58.110 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:47:58.216 [debug] handled request client -> server textDocument/documentSymbol in 6ms
+14:47:58.216 [debug] handled request client -> server textDocument/documentSymbol in 6ms
+14:47:59.713 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:47:59.765 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:59.765 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:47:59.765 [debug] Node port message: 
+14:47:59.764 [info] Plugins found 0 results in 0.006 ms
+
+14:47:59.964 [debug] handled request client -> server textDocument/codeLens in 958µs
+14:48:00.066 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+14:48:00.068 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:00.298 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:00.352 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:00.352 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:00.353 [debug] Node port message: 
+14:48:00.352 [info] Plugins found 0 results in 0.022 ms
+
+14:48:00.552 [debug] handled request client -> server textDocument/codeLens in 973µs
+14:48:00.652 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:48:00.668 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:00.925 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:00.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:00.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:00.977 [debug] Node port message: 
+14:48:00.977 [info] Plugins found 0 results in 0.008 ms
+
+14:48:01.182 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:01.283 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:48:01.284 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:04.682 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:04.734 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:04.734 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:04.734 [debug] Node port message: 
+14:48:04.733 [info] Plugins found 0 results in 0.006 ms
+
+14:48:04.939 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:05.038 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+14:48:05.038 [debug] handled request client -> server textDocument/documentSymbol in 3ms
+14:48:06.211 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:06.263 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:06.263 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:06.263 [debug] Node port message: 
+14:48:06.262 [info] Plugins found 0 results in 0.006 ms
+
+14:48:06.469 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:06.562 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:48:06.562 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:12.045 [info] Resolved entity: {:module, Date}
+14:48:12.053 [debug] handled request client -> server textDocument/hover in 10ms
+14:48:12.201 [debug] handled request client -> server textDocument/codeAction in 2ms
+14:48:17.766 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:keyword, ~c"do"}}}
+14:48:17.766 [debug] handled request client -> server textDocument/hover in 2ms
+14:48:17.918 [debug] handled request client -> server textDocument/codeAction in 2ms
+14:48:21.827 [info] Resolved entity: {:variable, :todo_task}
+14:48:21.827 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :todo_task}}}
+14:48:21.827 [debug] handled request client -> server textDocument/hover in 3ms
+14:48:21.981 [debug] handled request client -> server textDocument/codeAction in 3ms
+14:48:22.147 [info] Resolved entity: {:variable, :todo_task}
+14:48:22.147 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :todo_task}}}
+14:48:22.147 [debug] handled request client -> server textDocument/hover in 2ms
+14:48:22.579 [warning] Could not resolve hover request, got: {:error, :not_found}
+14:48:22.579 [debug] handled request client -> server textDocument/hover in 2ms
+14:48:22.811 [warning] Could not resolve hover request, got: {:error, :not_found}
+14:48:22.812 [debug] handled request client -> server textDocument/hover in 2ms
+14:48:22.967 [debug] handled request client -> server textDocument/codeAction in 2ms
+14:48:27.182 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:48:27.234 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.235 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.235 [debug] Node port message: 
+14:48:27.234 [info] Plugins found 0 results in 0.011 ms
+
+14:48:27.438 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:27.539 [debug] handled request client -> server textDocument/documentSymbol in 868µs
+14:48:27.539 [debug] handled request client -> server textDocument/documentSymbol in 493µs
+14:48:27.677 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:27.729 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.729 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.729 [debug] Node port message: 
+14:48:27.728 [info] Plugins found 0 results in 0.007 ms
+
+14:48:27.758 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:27.810 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.810 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.810 [debug] Node port message: 
+14:48:27.810 [info] Plugins found 0 results in 0.008 ms
+
+14:48:27.841 [debug] handled notification client -> server textDocument/didChange in 966µs
+14:48:27.893 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.893 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.893 [debug] Node port message: 
+14:48:27.893 [info] Plugins found 0 results in 0.007 ms
+
+14:48:27.925 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:27.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:27.977 [debug] Node port message: 
+14:48:27.976 [info] Plugins found 0 results in 0.008 ms
+
+14:48:28.009 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:28.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.061 [debug] Node port message: 
+14:48:28.061 [info] Plugins found 0 results in 0.009 ms
+
+14:48:28.094 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:28.146 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.147 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.147 [debug] Node port message: 
+14:48:28.146 [info] Plugins found 0 results in 0.01 ms
+
+14:48:28.177 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:28.230 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.230 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.230 [debug] Node port message: 
+14:48:28.230 [info] Plugins found 0 results in 0.012 ms
+
+14:48:28.259 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:28.312 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.312 [debug] Node port message: 
+14:48:28.311 [info] Plugins found 0 results in 0.011 ms
+
+14:48:28.312 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.454 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:48:28.507 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.508 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.508 [debug] Node port message: 
+14:48:28.507 [info] Plugins found 0 results in 0.015 ms
+
+14:48:28.623 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:28.684 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.686 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.686 [debug] Node port message: 
+14:48:28.677 [info] Plugins found 0 results in 0.017 ms
+
+14:48:28.806 [debug] handled notification client -> server textDocument/didChange in 904µs
+14:48:28.858 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.858 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:28.858 [debug] Node port message: 
+14:48:28.857 [info] Plugins found 0 results in 0.006 ms
+
+14:48:29.062 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:29.168 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:48:29.168 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:29.751 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:48:29.804 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:29.804 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:29.804 [debug] Node port message: 
+14:48:29.803 [info] Plugins found 0 results in 0.012 ms
+
+14:48:30.012 [debug] handled request client -> server textDocument/codeLens in 861µs
+14:48:30.105 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:30.107 [debug] handled request client -> server textDocument/documentSymbol in 979µs
+14:48:31.859 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:48:31.911 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:31.911 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:31.911 [debug] Node port message: 
+14:48:31.911 [info] Plugins found 0 results in 0.007 ms
+
+14:48:32.122 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:48:32.229 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:32.229 [debug] handled request client -> server textDocument/documentSymbol in 731µs
+14:48:39.216 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:48:39.268 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:39.268 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:39.268 [debug] Node port message: 
+14:48:39.268 [info] Plugins found 0 results in 0.008 ms
+
+14:48:39.462 [debug] handled request client -> server textDocument/codeLens in 907µs
+14:48:39.572 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:39.572 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:42.581 [info] Resolved entity: {:module, String}
+14:48:42.601 [debug] handled request client -> server textDocument/hover in 22ms
+14:48:46.720 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:48:46.772 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:46.772 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:46.772 [debug] Node port message: 
+14:48:46.772 [info] Plugins found 0 results in 0.008 ms
+
+14:48:46.908 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:48:46.963 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:46.963 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:46.963 [debug] Node port message: 
+14:48:46.962 [info] Plugins found 0 results in 0.015 ms
+
+14:48:47.165 [debug] handled request client -> server textDocument/codeLens in 838µs
+14:48:47.276 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:48:47.276 [debug] handled request client -> server textDocument/documentSymbol in 752µs
+14:48:47.482 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:48:47.606 [debug] Node port message: Compiling 1 file (.ex)
+
+14:48:47.607 [debug] Node port message: 
+== Compilation error in file lib/ch4/simple_todo.ex ==
+** (SyntaxError) invalid syntax found on lib/ch4/simple_todo.ex:10:30:
+    error: unexpected token: ":" (column 30, code point U+003A)
+    â
+ 10 â   def add(initial_state, day : Date.t(), todo_task) do
+    â                              ^
+    â
+    ââ lib/ch4/simple_todo.ex:10:30
+    (elixir 1.19.4) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+14:48:47.610 [info] Compiled elixir_playground in 76 ms
+14:48:47.610 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:47.610 [debug] Node port message: 
+14:48:47.610 [info] Plugins found 0 results in 0.027 ms
+
+14:48:47.610 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:48:47.745 [debug] handled request client -> server textDocument/codeLens in 473µs
+14:48:47.820 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 791µs
+14:48:49.090 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:keyword, ~c"do"}}}
+14:48:49.090 [debug] handled request client -> server textDocument/hover in 3ms
+14:48:49.234 [debug] handled request client -> server textDocument/codeAction in 2ms
+14:48:58.184 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:16.028 [debug] handled request client -> server textDocument/codeLens in 475µs
+14:49:19.440 [debug] handled request client -> server textDocument/codeLens in 780µs
+14:49:25.485 [debug] handled request client -> server textDocument/codeLens in 663µs
+14:49:25.732 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:keyword, ~c"do"}}}
+14:49:25.732 [debug] handled request client -> server textDocument/hover in 4ms
+14:49:25.880 [debug] handled request client -> server textDocument/codeAction in 2ms
+14:49:38.998 [info] Resolved entity: {:variable, :todo_task}
+14:49:38.998 [warning] Could not resolve hover request, got: {:error, {:unsupported, {:variable, :todo_task}}}
+14:49:38.998 [debug] handled request client -> server textDocument/hover in 3ms
+14:49:42.999 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:49:43.051 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.051 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.051 [debug] Node port message: 
+14:49:43.051 [info] Plugins found 0 results in 0.006 ms
+
+14:49:43.268 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:43.270 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:49:43.363 [debug] handled request client -> server textDocument/documentSymbol in 926µs
+14:49:43.493 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:43.545 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.545 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.545 [debug] Node port message: 
+14:49:43.545 [info] Plugins found 0 results in 0.011 ms
+
+14:49:43.574 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:43.626 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.626 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.626 [debug] Node port message: 
+14:49:43.626 [info] Plugins found 0 results in 0.007 ms
+
+14:49:43.658 [debug] handled notification client -> server textDocument/didChange in 791µs
+14:49:43.710 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.710 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.710 [debug] Node port message: 
+14:49:43.710 [info] Plugins found 0 results in 0.007 ms
+
+14:49:43.741 [debug] handled notification client -> server textDocument/didChange in 832µs
+14:49:43.793 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.793 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.793 [debug] Node port message: 
+14:49:43.792 [info] Plugins found 0 results in 0.005 ms
+
+14:49:43.824 [debug] handled notification client -> server textDocument/didChange in 755µs
+14:49:43.877 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.877 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.877 [debug] Node port message: 
+14:49:43.876 [info] Plugins found 0 results in 0.007 ms
+
+14:49:43.908 [debug] handled notification client -> server textDocument/didChange in 887µs
+14:49:43.960 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.960 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:43.960 [debug] Node port message: 
+14:49:43.960 [info] Plugins found 0 results in 0.007 ms
+
+14:49:43.990 [debug] handled notification client -> server textDocument/didChange in 890µs
+14:49:44.042 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.042 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.042 [debug] Node port message: 
+14:49:44.042 [info] Plugins found 0 results in 0.009 ms
+
+14:49:44.172 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:49:44.224 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.224 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.225 [debug] Node port message: 
+14:49:44.224 [info] Plugins found 0 results in 0.011 ms
+
+14:49:44.335 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:44.388 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.388 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.388 [debug] Node port message: 
+14:49:44.387 [info] Plugins found 0 results in 0.015 ms
+
+14:49:44.483 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:49:44.535 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.535 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.535 [debug] Node port message: 
+14:49:44.535 [info] Plugins found 0 results in 0.013 ms
+
+14:49:44.626 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:44.679 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.679 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:44.679 [debug] Node port message: 
+14:49:44.679 [info] Plugins found 0 results in 0.012 ms
+
+14:49:44.885 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:44.886 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:49:44.986 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:49:45.591 [debug] handled notification client -> server textDocument/didChange in 3ms
+14:49:45.642 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.642 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.642 [debug] Node port message: 
+14:49:45.642 [info] Plugins found 0 results in 0.009 ms
+
+14:49:45.834 [debug] handled notification client -> server textDocument/didChange in 4ms
+14:49:45.886 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.886 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.886 [debug] Node port message: 
+14:49:45.886 [info] Plugins found 0 results in 0.01 ms
+
+14:49:45.898 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:45.949 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.950 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:45.950 [debug] Node port message: 
+14:49:45.949 [info] Plugins found 0 results in 0.008 ms
+
+14:49:46.159 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:46.162 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:49:46.250 [debug] handled request client -> server textDocument/documentSymbol in 736µs
+14:49:46.530 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:49:46.649 [debug] Node port message: Compiling 1 file (.ex)
+
+14:49:46.650 [debug] Node port message: 
+== Compilation error in file lib/ch4/simple_todo.ex ==
+** (SyntaxError) invalid syntax found on lib/ch4/simple_todo.ex:14:30:
+    error: unexpected token: ":" (column 30, code point U+003A)
+    â
+ 14 â   def get(initial_state, day : Date.t()) do
+    â                              ^
+    â
+    ââ lib/ch4/simple_todo.ex:14:30
+    (elixir 1.19.4) lib/kernel/parallel_compiler.ex:529: anonymous fn/5 in Kernel.ParallelCompiler.spawn_workers/8
+
+14:49:46.652 [info] Compiled elixir_playground in 71 ms
+14:49:46.652 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:46.652 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:46.652 [debug] Node port message: 
+14:49:46.652 [info] Plugins found 0 results in 0.007 ms
+
+14:49:46.784 [debug] handled request client -> server textDocument/codeLens in 359µs
+14:49:46.856 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 429µs
+14:49:49.837 [debug] handled notification client -> server textDocument/didChange in 4ms
+14:49:49.889 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:49.889 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:49.889 [debug] Node port message: 
+14:49:49.889 [info] Plugins found 0 results in 0.007 ms
+
+14:49:49.974 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.026 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.026 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.026 [debug] Node port message: 
+14:49:50.026 [info] Plugins found 0 results in 0.009 ms
+
+14:49:50.095 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.147 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.147 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.147 [debug] Node port message: 
+14:49:50.147 [info] Plugins found 0 results in 0.007 ms
+
+14:49:50.237 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.289 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.289 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.289 [debug] Node port message: 
+14:49:50.289 [info] Plugins found 0 results in 0.009 ms
+
+14:49:50.363 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.415 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.415 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.415 [debug] Node port message: 
+14:49:50.415 [info] Plugins found 0 results in 0.01 ms
+
+14:49:50.502 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.554 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.554 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.554 [debug] Node port message: 
+14:49:50.554 [info] Plugins found 0 results in 0.008 ms
+
+14:49:50.648 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:49:50.701 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.701 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.701 [debug] Node port message: 
+14:49:50.701 [info] Plugins found 0 results in 0.013 ms
+
+14:49:50.794 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:49:50.846 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.846 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.846 [debug] Node port message: 
+14:49:50.846 [info] Plugins found 0 results in 0.009 ms
+
+14:49:50.938 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:50.990 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.990 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:50.990 [debug] Node port message: 
+14:49:50.990 [info] Plugins found 0 results in 0.01 ms
+
+14:49:51.057 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:51.134 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.134 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.134 [debug] Node port message: 
+14:49:51.134 [info] Plugins found 0 results in 0.006 ms
+
+14:49:51.315 [debug] handled request client -> server textDocument/codeLens in 467µs
+14:49:51.369 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:51.369 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:49:51.419 [debug] handled notification client -> server $/cancelRequest in 212µs
+14:49:51.470 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.470 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.470 [debug] Node port message: 
+14:49:51.470 [info] Plugins found 0 results in 0.026 ms
+
+14:49:51.623 [debug] handled request client -> server textDocument/codeLens in 464µs
+14:49:51.684 [debug] handled request client -> server textDocument/documentSymbol in 60ms
+14:49:51.713 [debug] handled notification client -> server textDocument/didSave in 516µs
+14:49:51.781 [debug] handled request client -> server textDocument/documentSymbol in 52ms
+14:49:51.831 [debug] Node port message: Compiling 1 file (.ex)
+
+14:49:51.854 [debug] Node port message: Generated elixir_playground app
+
+14:49:51.856 [debug] Node port message: 
+14:49:51.856 [info] Compile completed with status ok Produced 0 diagnostics []
+
+14:49:51.856 [info] Compiled elixir_playground in 92 ms
+14:49:51.856 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.856 [debug] Node port message: 
+14:49:51.856 [info] Plugins found 0 results in 0.01 ms
+
+14:49:51.856 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:51.970 [debug] handled request client -> server textDocument/codeLens in 443µs
+14:49:52.051 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 458µs
+14:49:54.335 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:54.387 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.387 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.387 [debug] Node port message: 
+14:49:54.386 [info] Plugins found 0 results in 0.007 ms
+
+14:49:54.536 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:54.588 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.588 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.588 [debug] Node port message: 
+14:49:54.588 [info] Plugins found 0 results in 0.009 ms
+
+14:49:54.792 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:54.794 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:49:54.892 [debug] handled request client -> server textDocument/documentSymbol in 782µs
+14:49:54.929 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:54.982 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.982 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:54.982 [debug] Node port message: 
+14:49:54.982 [info] Plugins found 0 results in 0.006 ms
+
+14:49:55.180 [debug] handled request client -> server textDocument/codeLens in 467µs
+14:49:55.180 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:49:55.279 [debug] handled request client -> server textDocument/documentSymbol in 710µs
+14:49:55.425 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:55.477 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.477 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.477 [debug] Node port message: 
+14:49:55.476 [info] Plugins found 0 results in 0.007 ms
+
+14:49:55.508 [debug] handled notification client -> server textDocument/didChange in 802µs
+14:49:55.559 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.560 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.560 [debug] Node port message: 
+14:49:55.559 [info] Plugins found 0 results in 0.008 ms
+
+14:49:55.590 [debug] handled notification client -> server textDocument/didChange in 811µs
+14:49:55.642 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.642 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.642 [debug] Node port message: 
+14:49:55.642 [info] Plugins found 0 results in 0.008 ms
+
+14:49:55.673 [debug] handled notification client -> server textDocument/didChange in 841µs
+14:49:55.725 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.725 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.725 [debug] Node port message: 
+14:49:55.724 [info] Plugins found 0 results in 0.008 ms
+
+14:49:55.755 [debug] handled notification client -> server textDocument/didChange in 963µs
+14:49:55.807 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.807 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.808 [debug] Node port message: 
+14:49:55.807 [info] Plugins found 0 results in 0.008 ms
+
+14:49:55.840 [debug] handled notification client -> server textDocument/didChange in 858µs
+14:49:55.892 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.892 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.892 [debug] Node port message: 
+14:49:55.892 [info] Plugins found 0 results in 0.008 ms
+
+14:49:55.925 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:55.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:55.977 [debug] Node port message: 
+14:49:55.977 [info] Plugins found 0 results in 0.009 ms
+
+14:49:56.009 [debug] handled notification client -> server textDocument/didChange in 951µs
+14:49:56.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.061 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.061 [debug] Node port message: 
+14:49:56.061 [info] Plugins found 0 results in 0.008 ms
+
+14:49:56.093 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:56.176 [debug] handled notification client -> server textDocument/didChange in 714µs
+14:49:56.179 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.179 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.179 [debug] Node port message: 
+14:49:56.179 [info] Plugins found 0 results in 0.006 ms
+
+14:49:56.230 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.230 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.230 [debug] Node port message: 
+14:49:56.230 [info] Plugins found 0 results in 0.004 ms
+
+14:49:56.258 [debug] handled notification client -> server textDocument/didChange in 710µs
+14:49:56.316 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.316 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.316 [debug] Node port message: 
+14:49:56.316 [info] Plugins found 0 results in 0.007 ms
+
+14:49:56.517 [debug] handled request client -> server textDocument/codeLens in 596µs
+14:49:56.574 [debug] handled request client -> server textDocument/documentSymbol in 57ms
+14:49:56.657 [debug] handled request client -> server textDocument/documentSymbol in 47ms
+14:49:56.720 [debug] handled notification client -> server textDocument/didChange in 712µs
+14:49:56.771 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.771 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:56.771 [debug] Node port message: 
+14:49:56.771 [info] Plugins found 0 results in 0.007 ms
+
+14:49:56.975 [debug] handled request client -> server textDocument/codeLens in 963µs
+14:49:56.979 [debug] handled request client -> server textDocument/documentSymbol in 2ms
+14:49:57.059 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:57.108 [debug] handled notification client -> server $/cancelRequest in 264µs
+14:49:57.142 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:57.142 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:57.142 [debug] Node port message: 
+14:49:57.142 [info] Plugins found 0 results in 0.006 ms
+
+14:49:57.309 [debug] handled request client -> server textDocument/codeLens in 648µs
+14:49:57.362 [debug] handled request client -> server textDocument/documentSymbol in 52ms
+14:49:57.457 [debug] handled request client -> server textDocument/documentSymbol in 48ms
+14:49:57.837 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:49:57.889 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:57.889 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:57.890 [debug] Node port message: 
+14:49:57.889 [info] Plugins found 0 results in 0.013 ms
+
+14:49:58.067 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:58.128 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:58.128 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:58.128 [debug] Node port message: 
+14:49:58.128 [info] Plugins found 0 results in 0.009 ms
+
+14:49:58.319 [debug] handled request client -> server textDocument/codeLens in 1ms
+14:49:58.377 [debug] handled notification client -> server textDocument/didChange in 2ms
+14:49:58.378 [debug] handled request client -> server textDocument/documentSymbol in 59ms
+14:49:58.417 [debug] handled request client -> server textDocument/documentSymbol in 713µs
+14:49:58.430 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:58.430 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:58.430 [debug] Node port message: 
+14:49:58.430 [info] Plugins found 0 results in 0.007 ms
+
+14:49:58.628 [debug] handled request client -> server textDocument/codeLens in 589µs
+14:49:58.629 [debug] handled request client -> server textDocument/documentSymbol in 931µs
+14:49:58.730 [debug] handled request client -> server textDocument/documentSymbol in 1ms
+14:49:58.784 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:49:58.852 [debug] Node port message: 
+14:49:58.852 [info] Plugins found 0 results in 0.004 ms
+
+14:49:58.852 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:58.852 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:49:59.033 [debug] handled request client -> server textDocument/codeLens in 833µs
+14:49:59.087 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:49:59.207 [debug] handled request client -> server textDocument/documentSymbol in 63ms
+14:50:00.764 [debug] handled notification client -> server textDocument/didChange in 9ms
+14:50:00.835 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:00.835 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:00.835 [debug] Node port message: 
+14:50:00.834 [info] Plugins found 0 results in 0.007 ms
+
+14:50:01.009 [debug] handled request client -> server textDocument/codeLens in 759µs
+14:50:01.056 [debug] handled request client -> server textDocument/documentSymbol in 47ms
+14:50:01.152 [debug] handled request client -> server textDocument/documentSymbol in 45ms
+14:50:01.834 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:50:01.842 [info] Completion for XpPos<<10, 4>>
+14:50:01.866 [info] Local completions are: [moduleattribute: (@after_compile, @after_verify, @before_compile, @behaviour, @callback, @compile, @deprecated, @derive, @dialyzer, @doc, @enforce_keys, @external_resource, @fallback_to_any, @file, @for, @impl, @macrocallback, @moduledoc, @nifs, @on_definition, @on_load, @opaque, @optional_callbacks, @protocol, @spec, @type, @typedoc, @typep, @undefined_impl_description, @vsn)   snippet: (module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet)   ]
+14:50:01.867 [info] Emitting Completions: [21:@after_compile 21:@after_verify 21:@before_compile 21:@behaviour 21:@callback 21:@compile 21:@deprecated 21:@derive 21:@dialyzer 10:@doc 10:@doc false 21:@enforce_keys 21:@external_resource 21:@fallback_to_any 21:@file 21:@for 21:@impl 21:@macrocallback 10:@moduledoc 10:@moduledoc false 21:@nifs 21:@on_definition 21:@on_load 21:@opaque 21:@optional_callbacks 21:@protocol 10:@spec add 10:@spec 21:@type 21:@typedoc 21:@typep 21:@undefined_impl_description 21:@vsn ]
+14:50:01.869 [debug] handled request client -> server textDocument/completion in 29ms
+14:50:01.886 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:01.886 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:01.886 [debug] Node port message: 
+14:50:01.886 [info] Plugins found 0 results in 0.009 ms
+
+14:50:02.097 [debug] handled request client -> server textDocument/codeLens in 433µs
+14:50:02.152 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:50:02.283 [debug] handled request client -> server textDocument/documentSymbol in 88ms
+14:50:02.509 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:50:02.588 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.588 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.588 [debug] Node port message: 
+14:50:02.587 [info] Plugins found 0 results in 0.005 ms
+
+14:50:02.648 [debug] handled notification client -> server textDocument/didChange in 780µs
+14:50:02.723 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.723 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.723 [debug] Node port message: 
+14:50:02.723 [info] Plugins found 0 results in 0.005 ms
+
+14:50:02.742 [debug] handled notification client -> server textDocument/didChange in 743µs
+14:50:02.817 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.817 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:02.817 [debug] Node port message: 
+14:50:02.817 [info] Plugins found 0 results in 0.005 ms
+
+14:50:02.997 [debug] handled request client -> server textDocument/codeLens in 869µs
+14:50:03.051 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:50:03.144 [debug] handled request client -> server textDocument/documentSymbol in 48ms
+14:50:03.260 [debug] handled notification client -> server textDocument/didChange in 945µs
+14:50:03.344 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:03.344 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:03.344 [debug] Node port message: 
+14:50:03.344 [info] Plugins found 0 results in 0.006 ms
+
+14:50:03.511 [debug] handled request client -> server textDocument/codeLens in 671µs
+14:50:03.596 [debug] handled request client -> server textDocument/documentSymbol in 85ms
+14:50:03.653 [debug] handled request client -> server textDocument/documentSymbol in 43ms
+14:50:03.868 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:50:03.987 [debug] Node port message: Compiling 1 file (.ex)
+
+14:50:04.008 [debug] Node port message: Generated elixir_playground app
+
+14:50:04.010 [debug] Node port message: 
+14:50:04.010 [info] Compile completed with status ok Produced 0 diagnostics []
+
+14:50:04.010 [info] Compiled elixir_playground in 91 ms
+14:50:04.011 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:04.011 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:04.011 [debug] Node port message: 
+14:50:04.010 [info] Plugins found 0 results in 0.005 ms
+
+14:50:04.122 [debug] handled request client -> server textDocument/codeLens in 345µs
+14:50:04.208 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 378µs
+14:50:08.341 [debug] handled notification client -> server textDocument/didChange in 893µs
+14:50:08.422 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:08.423 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:08.423 [debug] Node port message: 
+14:50:08.422 [info] Plugins found 0 results in 0.005 ms
+
+14:50:08.577 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:50:08.581 [info] Completion for XpPos<<15, 4>>
+14:50:08.600 [info] Local completions are: [moduleattribute: (@after_compile, @after_verify, @before_compile, @behaviour, @callback, @compile, @deprecated, @derive, @dialyzer, @doc, @enforce_keys, @external_resource, @fallback_to_any, @file, @for, @impl, @macrocallback, @moduledoc, @nifs, @on_definition, @on_load, @opaque, @optional_callbacks, @protocol, @spec, @type, @typedoc, @typep, @undefined_impl_description, @vsn)   snippet: (module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet, module attribute snippet)   ]
+14:50:08.600 [info] Emitting Completions: [21:@after_compile 21:@after_verify 21:@before_compile 21:@behaviour 21:@callback 21:@compile 21:@deprecated 21:@derive 21:@dialyzer 10:@doc 10:@doc false 21:@enforce_keys 21:@external_resource 21:@fallback_to_any 21:@file 21:@for 21:@impl 21:@macrocallback 10:@moduledoc 10:@moduledoc false 21:@nifs 21:@on_definition 21:@on_load 21:@opaque 21:@optional_callbacks 21:@protocol 10:@spec get 10:@spec 21:@type 21:@typedoc 21:@typep 21:@undefined_impl_description 21:@vsn ]
+14:50:08.601 [debug] handled request client -> server textDocument/completion in 22ms
+14:50:08.629 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:08.629 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:08.629 [debug] Node port message: 
+14:50:08.629 [info] Plugins found 0 results in 0.007 ms
+
+14:50:08.830 [debug] handled request client -> server textDocument/codeLens in 865µs
+14:50:08.886 [debug] handled request client -> server textDocument/documentSymbol in 55ms
+14:50:08.976 [debug] handled request client -> server textDocument/documentSymbol in 46ms
+14:50:09.029 [debug] handled notification client -> server textDocument/didChange in 903µs
+14:50:09.081 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.082 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.082 [debug] Node port message: 
+14:50:09.081 [info] Plugins found 0 results in 0.007 ms
+
+14:50:09.287 [debug] handled request client -> server textDocument/codeLens in 710µs
+14:50:09.346 [debug] handled request client -> server textDocument/documentSymbol in 59ms
+14:50:09.448 [debug] handled request client -> server textDocument/documentSymbol in 63ms
+14:50:09.660 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:50:09.712 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.712 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.712 [debug] Node port message: 
+14:50:09.712 [info] Plugins found 0 results in 0.007 ms
+
+14:50:09.775 [debug] handled notification client -> server textDocument/didChange in 684µs
+14:50:09.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.850 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:09.850 [debug] Node port message: 
+14:50:09.850 [info] Plugins found 0 results in 0.004 ms
+
+14:50:09.949 [debug] handled notification client -> server textDocument/didChange in 6ms
+14:50:10.014 [debug] handled notification client -> server textDocument/didChange in 917µs
+14:50:10.018 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.019 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.019 [debug] Node port message: 
+14:50:10.018 [info] Plugins found 0 results in 0.006 ms
+
+14:50:10.095 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.095 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.095 [debug] Node port message: 
+14:50:10.095 [info] Plugins found 0 results in 0.011 ms
+
+14:50:10.183 [debug] handled notification client -> server textDocument/didChange in 817µs
+14:50:10.260 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.260 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:10.260 [debug] Node port message: 
+14:50:10.260 [info] Plugins found 0 results in 0.006 ms
+
+14:50:10.437 [debug] handled request client -> server textDocument/codeLens in 549µs
+14:50:10.495 [debug] handled request client -> server textDocument/documentSymbol in 56ms
+14:50:10.586 [debug] handled request client -> server textDocument/documentSymbol in 50ms
+14:50:11.785 [debug] handled notification client -> server textDocument/didChange in 1ms
+14:50:11.855 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:11.855 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:11.855 [debug] Node port message: 
+14:50:11.854 [info] Plugins found 0 results in 0.005 ms
+
+14:50:12.033 [debug] handled request client -> server textDocument/codeLens in 917µs
+14:50:12.086 [debug] handled request client -> server textDocument/documentSymbol in 54ms
+14:50:12.183 [debug] handled request client -> server textDocument/documentSymbol in 50ms
+14:50:13.923 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:50:14.041 [debug] Node port message: Compiling 1 file (.ex)
+
+14:50:14.063 [debug] Node port message: Generated elixir_playground app
+
+14:50:14.066 [debug] Node port message: 
+14:50:14.065 [info] Compile completed with status ok Produced 0 diagnostics []
+
+14:50:14.066 [info] Compiled elixir_playground in 92 ms
+14:50:14.066 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:14.066 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:14.066 [debug] Node port message: 
+14:50:14.066 [info] Plugins found 0 results in 0.008 ms
+
+14:50:14.179 [debug] handled request client -> server textDocument/codeLens in 292µs
+14:50:14.252 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 587µs
+14:50:22.866 [debug] handled notification client -> server textDocument/didSave in 1ms
+14:50:22.977 [debug] Node port message: 
+14:50:22.976 [info] Compile completed with status noop Produced 0 diagnostics []
+
+14:50:22.977 [info] Compiled elixir_playground in 59 ms
+14:50:22.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:22.977 [debug] sent notification server -> client textDocument/publishDiagnostics
+14:50:22.977 [debug] Node port message: 
+14:50:22.977 [info] Plugins found 0 results in 0.005 ms
+
+14:50:23.120 [debug] handled request client -> server textDocument/codeLens in 463µs
+14:50:23.204 [debug] handled notification client -> server workspace/didChangeWatchedFiles in 477µs
+14:50:32.766 [debug] handled request client -> server textDocument/codeLens in 737µs
+14:50:35.518 [debug] handled request client -> server textDocument/codeLens in 620µs
