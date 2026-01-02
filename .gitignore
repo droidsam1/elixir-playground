@@ -25,5 +25,8 @@ elixir_playground-*.tar
 # ElixirLS
 .elixir_ls/
 
+# Expert/IDE tooling
+.expert/
+
 # Misc
 *.beam
