@@ -44,4 +44,22 @@ defmodule SimpleTodoTest do
 
     assert [] = SimpleTodo.get(todo, day)
   end
+
+  test "update an specific entry" do
+    day = Date.utc_today()
+    todo = SimpleTodo.new()
+    todo = SimpleTodo.add(todo, day, "remember the milk")
+    todo = SimpleTodo.add(todo, day, "remember the vegetables")
+    todo = SimpleTodo.add(todo, day, "remember the fruit")
+
+
+    todo = SimpleTodo.update(todo, day, 3, "remember the eggs")
+
+
+    assert Enum.sort([
+      %SimpleTodoEntry{id: 1, value: "remember the milk"},
+      %SimpleTodoEntry{id: 2, value: "remember the vegetables"},
+      %SimpleTodoEntry{id: 3, value: "remember the eggs"}
+    ]) == Enum.sort(SimpleTodo.get(todo, day))
+  end
 end
