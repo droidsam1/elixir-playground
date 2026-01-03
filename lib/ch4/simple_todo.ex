@@ -29,6 +29,7 @@ defmodule SimpleTodo do
     Map.get(todo.entries, day, [])
   end
 
+  @spec update(SimpleTodo.t(), Date.t(), integer(), String.t()) :: SimpleTodo.t()
   def update(todo, day, id, new_value) do
     updated_map =
       Map.update(todo.entries, day, [], fn entries ->
