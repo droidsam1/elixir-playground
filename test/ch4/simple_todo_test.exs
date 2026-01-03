@@ -9,21 +9,17 @@ defmodule SimpleTodoTest do
   test "add puts some taks in the todo" do
     day = Date.utc_today()
     another_day = Date.add(day, 1)
-    state_after_first = SimpleTodo.add(SimpleTodo.new(), day, "buy some bread")
+    todo = SimpleTodo.add(SimpleTodo.new(), day, "buy some bread")
+    todo = SimpleTodo.add(todo, another_day, "buy some milk")
 
-    assert state_after_first == %SimpleTodo{entries: %{day => ["buy some bread"]}}
-
-    assert SimpleTodo.add(state_after_first, another_day, "buy some milk") == %SimpleTodo{
-             entries: %{
-               day => ["buy some bread"],
-               another_day => ["buy some milk"]
-             }
-           }
+    assert ["buy some bread"] == SimpleTodo.get(todo, day)
+    assert ["buy some milk"] == SimpleTodo.get(todo, another_day)
   end
 
   test "get returns and specific task from the todo" do
     day = Date.utc_today()
-    todo = SimpleTodo.new(%{day => ["remember the milk"]})
+    todo = SimpleTodo.new()
+    todo = SimpleTodo.add(todo, day, "remember the milk")
 
     assert SimpleTodo.get(todo, day) == ["remember the milk"]
   end
