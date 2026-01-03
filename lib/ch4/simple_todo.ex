@@ -33,8 +33,12 @@ defmodule SimpleTodo do
   def update(todo, day, id, new_value) do
     updated_map =
       Map.update(todo.entries, day, [], fn entries ->
-        Enum.map(entries, fn %SimpleTodoEntry{} = entry ->
-          if entry.id == id, do: %SimpleTodoEntry{entry | value: new_value}, else: entry
+        Enum.map(entries, fn
+          %SimpleTodoEntry{id: ^id} = entry ->
+            %SimpleTodoEntry{entry | value: new_value}
+
+          entry ->
+            entry
         end)
       end)
 
