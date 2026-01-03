@@ -20,16 +20,17 @@ defmodule SimpleTodo do
   @spec add(SimpleTodo.t(), Date.t(), String.t()) :: SimpleTodo.t()
   def add(todo, day, new_task) do
     tasks_for_date = Map.get(todo.entries, day) || []
-    tasks_for_date = [SimpleTodoEntry.new(todo.next_id + 1, new_task) | tasks_for_date]
-    %SimpleTodo{entries: Map.put(todo.entries, day, tasks_for_date)}
+    tasks_for_date = [SimpleTodoEntry.new(todo.next_id, new_task) | tasks_for_date]
+    %SimpleTodo{entries: Map.put(todo.entries, day, tasks_for_date), next_id: todo.next_id + 1}
   end
 
   @spec get(SimpleTodo.t(), Date.t()) :: list()
   def get(todo, day) do
-    Enum.map(Map.get(todo.entries, day, []), fn entry -> entry.value end)
+    Map.get(todo.entries, day, [])
   end
 
   # def update(todo, day, entry) do
+  #   Map.fetch(todo, day)
+  #   |>
   # end
-
 end

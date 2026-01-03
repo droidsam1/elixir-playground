@@ -12,8 +12,8 @@ defmodule SimpleTodoTest do
     todo = SimpleTodo.add(SimpleTodo.new(), day, "buy some bread")
     todo = SimpleTodo.add(todo, another_day, "buy some milk")
 
-    assert ["buy some bread"] == SimpleTodo.get(todo, day)
-    assert ["buy some milk"] == SimpleTodo.get(todo, another_day)
+    assert [%SimpleTodoEntry{value: "buy some bread"}] = SimpleTodo.get(todo, day)
+    assert [%SimpleTodoEntry{value: "buy some milk"}] = SimpleTodo.get(todo, another_day)
   end
 
   test "get returns and specific task from the todo" do
@@ -21,7 +21,7 @@ defmodule SimpleTodoTest do
     todo = SimpleTodo.new()
     todo = SimpleTodo.add(todo, day, "remember the milk")
 
-    assert SimpleTodo.get(todo, day) == ["remember the milk"]
+    assert [%SimpleTodoEntry{value: "remember the milk"}] = SimpleTodo.get(todo, day)
   end
 
   test "add can put n number of tasks in the same date" do
@@ -29,15 +29,19 @@ defmodule SimpleTodoTest do
     todo = SimpleTodo.new()
     todo = SimpleTodo.add(todo, day, "remember the milk")
     todo = SimpleTodo.add(todo, day, "remember the vegetables")
+    todo = SimpleTodo.add(todo, day, "remember the fruit")
 
-    assert Enum.sort(SimpleTodo.get(todo, day)) ==
-             Enum.sort(["remember the milk", "remember the vegetables"])
+    assert Enum.sort([
+             %SimpleTodoEntry{id: 1, value: "remember the milk"},
+             %SimpleTodoEntry{id: 2, value: "remember the vegetables"},
+             %SimpleTodoEntry{id: 3, value: "remember the fruit"}
+           ]) == Enum.sort(SimpleTodo.get(todo, day))
   end
 
   test "get returns empty when no task for specific day" do
     todo = SimpleTodo.new()
     day = Date.utc_today()
 
-    assert SimpleTodo.get(todo, day) == []
+    assert [] = SimpleTodo.get(todo, day)
   end
 end
