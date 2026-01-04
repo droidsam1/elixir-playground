@@ -34,8 +34,8 @@ defmodule SimpleTodo do
     updated_map =
       Map.update(todo.entries, day, [], fn entries ->
         Enum.map(entries, fn
-          %SimpleTodoEntry{id: ^id} ->
-            %SimpleTodoEntry{id: id, value: new_value}
+          %SimpleTodoEntry{id: ^id} = entry ->
+            %SimpleTodoEntry{entry | value: new_value}
 
           entry ->
             entry
