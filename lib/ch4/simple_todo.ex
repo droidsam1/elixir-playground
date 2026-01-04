@@ -44,4 +44,13 @@ defmodule SimpleTodo do
 
     %SimpleTodo{entries: updated_map, next_id: todo.next_id}
   end
+
+  def delete(todo, id) do
+    updated_entries =
+      Map.new(todo.entries, fn {day, day_entries} ->
+        {day, Enum.reject(day_entries, fn entry -> entry.id == id end)}
+      end)
+
+    %SimpleTodo{entries: updated_entries, next_id: todo.next_id}
+  end
 end

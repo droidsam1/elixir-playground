@@ -61,4 +61,21 @@ defmodule SimpleTodoTest do
 
     assert Enum.sort(expected_values) == Enum.sort(actual_values)
   end
+
+  test "delete removes an specific entry" do
+    day = Date.utc_today()
+    another_day = Date.add(day, 1)
+    todo = SimpleTodo.new()
+    todo = SimpleTodo.add(todo, another_day, "remember the flour")
+    todo = SimpleTodo.add(todo, day, "remember the milk")
+    todo = SimpleTodo.add(todo, day, "remember the vegetables")
+    todo = SimpleTodo.add(todo, day, "remember the fruit")
+
+    todo = SimpleTodo.delete(todo, 4)
+
+    expected_values = ["remember the milk", "remember the vegetables"]
+    actual_values = Enum.map(SimpleTodo.get(todo, day), & &1.value)
+
+    assert Enum.sort(expected_values) == Enum.sort(actual_values)
+  end
 end
