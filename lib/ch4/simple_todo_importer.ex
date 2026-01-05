@@ -3,7 +3,7 @@ defmodule SimpleTodoImporter do
     Module to import from csv files the state of a SimpleTodo
   """
 
-  def import(file_path, todo \\ SimpleTodo.new()) do
+  def import(file_path) do
     case File.read(file_path) do
       {:ok, content} ->
         Enum.reduce(
