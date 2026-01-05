@@ -7,11 +7,11 @@ defmodule SimpleTodoImporterTest do
 
     assert todo == %SimpleTodo{
              entries: %{
-               "2018-12-19" => [
+               ~D[2018-12-19] => [
                  %SimpleTodoEntry{id: 3, value: "Movies"},
                  %SimpleTodoEntry{id: 1, value: "Dentist"}
                ],
-               "2018-12-20" => [%SimpleTodoEntry{id: 2, value: "Shopping"}]
+               ~D[2018-12-20] => [%SimpleTodoEntry{id: 2, value: "Shopping"}]
              },
              next_id: 4
            }
