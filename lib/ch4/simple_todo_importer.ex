@@ -6,11 +6,16 @@ defmodule SimpleTodoImporter do
   def import(file_path, todo \\ SimpleTodo.new()) do
     case File.read(file_path) do
       {:ok, content} ->
-        SimpleTodo.new()
-
-      # Enum.map(String.split(content, ","), )
-      {:error, _reason} ->
-        todo
+        Enum.reduce(
+          Enum.map(Enum.reject(String.split(content, "\n"), fn line -> line == "" end), fn line ->
+            splitted = String.split(line, ",")
+            {Enum.at(splitted, 0), Enum.at(splitted, 1)}
+          end),
+          %SimpleTodo{},
+          fn {day, new_task}, todo ->
+            SimpleTodo.add(todo, day, new_task)
+          end
+        )
     end
   end
 end
