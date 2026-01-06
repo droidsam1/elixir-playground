@@ -8,24 +8,23 @@ defmodule SimpleTodoImporter do
       {:ok, content} ->
         content
         |> String.split("\n", trim: true)
-        |> Enum.map(&parse_line/1)
-        |> Enum.reduce(%SimpleTodo{}, fn {date, task}, todo ->
-          SimpleTodo.add(todo, date, task)
+        |> Enum.reduce(%SimpleTodo{}, fn line, todo ->
+          {day, new_task} = split_line(line)
+          SimpleTodo.add(todo, day, new_task)
         end)
 
       {:error, _reason} ->
-        %SimpleTodo{}
+        nil
     end
   end
 
-  def parse_line(line) do
+  def split_line(line) do
     case String.split(line, ",", trim: true) do
-      [date_str, task] ->
-        {:ok, date} = Date.from_iso8601(date_str)
-        {date, task}
+      [day_string, task] ->
+        {Date.from_iso8601!(day_string), task}
 
       _ ->
-        raise "Invalid CSV line format: #{line}"
+        nil
     end
   end
 end
