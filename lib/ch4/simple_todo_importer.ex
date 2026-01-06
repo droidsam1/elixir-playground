@@ -8,13 +8,13 @@ defmodule SimpleTodoImporter do
       {:ok, content} ->
         content
         |> String.split("\n", trim: true)
-        |> Enum.reduce(%SimpleTodo{}, fn line, todo ->
-          {day, new_task} = split_line(line)
+        |> Enum.map(&split_line/1)
+        |> Enum.reduce(%SimpleTodo{}, fn {day, new_task}, todo ->
           SimpleTodo.add(todo, day, new_task)
         end)
 
-      {:error, _reason} ->
-        nil
+      {:error, reason} ->
+        raise reason
     end
   end
 
@@ -24,7 +24,7 @@ defmodule SimpleTodoImporter do
         {Date.from_iso8601!(day_string), task}
 
       _ ->
-        nil
+        raise "Invalid CSV line #{line}"
     end
   end
 end
