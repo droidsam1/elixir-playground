@@ -15,4 +15,11 @@ defmodule CalculatorWithStateTest do
     pid = CalculatorServer.start()
     assert 0 = CalculatorServer.value(pid)
   end
+
+  test "value return current state of the accumulator" do
+    pid = CalculatorServer.start()
+    CalculatorServer.add(pid, 11)
+    CalculatorServer.add(pid, 11)
+    assert 22 = CalculatorServer.value(pid)
+  end
 end
