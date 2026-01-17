@@ -1,14 +1,19 @@
 defmodule CalculatorTest do
   use ExUnit.Case
 
-  test "can sum two numbers" do
+  test "perfom sum two numbers" do
     {:result, result} = Calculator.process(:add, 1, 2)
     assert result == 3
   end
 
-  test "can substract two numbers" do
+  test "perfom substract two numbers" do
     {:result, result} = Calculator.process(:substract, 1, 2)
     assert result == -1
+  end
+
+  test "perfom multiplication of two numbers" do
+    {:result, result} = Calculator.process(:multiplication, 10, 2)
+    assert result == 20
   end
 
   test "fail to sum if operands are not numbers" do
