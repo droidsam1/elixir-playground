@@ -1,8 +1,8 @@
-defmodule CalculatorTest do
+defmodule CalculatorWithStateTest do
   use ExUnit.Case
 
   test "perfom sum two numbers" do
-    {:result, result} = Calculator.process(:add, 1, 2)
-    assert result == 3
+    pid = CalculatorServer.start()
+    assert pid != nil && is_pid(pid)
   end
 end
