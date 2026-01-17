@@ -21,6 +21,10 @@ defmodule Calculator do
     {:result, operand1 - operand2}
   end
 
+  defp perform_operation({:ok, {_operand1, _operand2}}, _op) do
+    {:error, "Unknown operator"}
+  end
+
   defp perform_operation({:error, reason}, _op) do
     {:error, reason}
   end

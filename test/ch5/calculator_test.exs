@@ -16,4 +16,10 @@ defmodule CalculatorTest do
 
     assert reason != nil
   end
+
+  test "fail when unknown operator" do
+    {:error, reason} = Calculator.process(:unknown, 1, 2)
+
+    assert reason != nil
+  end
 end
