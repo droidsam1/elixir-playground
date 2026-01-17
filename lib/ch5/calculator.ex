@@ -17,6 +17,10 @@ defmodule Calculator do
     {:result, operand1 + operand2}
   end
 
+  defp perform_operation({:ok, {operand1, operand2}}, :substract) do
+    {:result, operand1 - operand2}
+  end
+
   defp perform_operation({:error, reason}, _op) do
     {:error, reason}
   end

@@ -6,6 +6,11 @@ defmodule CalculatorTest do
     assert result == 3
   end
 
+  test "can substract two numbers" do
+    {:result, result} = Calculator.process(:substract, 1, 2)
+    assert result == -1
+  end
+
   test "fail to sum if operands are not numbers" do
     {:error, reason} = Calculator.process(:add, 1, "")
 
