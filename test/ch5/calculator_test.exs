@@ -21,6 +21,12 @@ defmodule CalculatorTest do
     assert result == 5
   end
 
+  test "fail to divide two numbers if divisor is zero" do
+    {:error, reason} = Calculator.process(:division, 1, 0)
+
+    assert reason != nil
+  end
+
   test "fail to sum if operands are not numbers" do
     {:error, reason} = Calculator.process(:add, 1, "")
 

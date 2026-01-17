@@ -25,6 +25,10 @@ defmodule Calculator do
     {:result, operand1 * operand2}
   end
 
+  defp perform_operation({:ok, {_operand1, 0}}, :division) do
+    {:error, "Division by zero"}
+  end
+
   defp perform_operation({:ok, {operand1, operand2}}, :division) do
     {:result, operand1 / operand2}
   end
