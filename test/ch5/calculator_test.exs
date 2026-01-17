@@ -16,6 +16,11 @@ defmodule CalculatorTest do
     assert result == 20
   end
 
+  test "perfom division of two numbers" do
+    {:result, result} = Calculator.process(:division, 10, 2)
+    assert result == 5
+  end
+
   test "fail to sum if operands are not numbers" do
     {:error, reason} = Calculator.process(:add, 1, "")
 
