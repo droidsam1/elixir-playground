@@ -2,6 +2,8 @@ defmodule CalculatorWithStateTest do
   @moduledoc false
   use ExUnit.Case
 
+  @number_of_concurrent_tasks 100_000
+
   test "start/0 starts a new proces" do
     pid = CalculatorServer.start()
     assert pid != nil && is_pid(pid)
@@ -22,5 +24,17 @@ defmodule CalculatorWithStateTest do
     CalculatorServer.add(pid, 11)
     CalculatorServer.add(pid, 11)
     assert 22 = CalculatorServer.value(pid)
+  end
+
+  test "server supports concurrency" do
+    pid = CalculatorServer.start()
+
+    tasks =
+      Enum.reduce(1..@number_of_concurrent_tasks, [], fn _x, tasks ->
+        [Task.async(fn -> CalculatorServer.add(pid, 1) end) | tasks]
+      end)
+
+    Task.await_many(tasks, 3)
+    assert @number_of_concurrent_tasks = CalculatorServer.value(pid)
   end
 end
