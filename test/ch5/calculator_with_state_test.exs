@@ -34,7 +34,8 @@ defmodule CalculatorWithStateTest do
         [Task.async(fn -> CalculatorServer.add(pid, 1) end) | tasks]
       end)
 
-    Task.await_many(tasks, 3)
+    # add sends a message, sending messages is fast, therefore does not wait for processing as processing is happening async in the loop function
+    Task.await_many(tasks, 1_000)
     assert @number_of_concurrent_tasks = CalculatorServer.value(pid)
   end
 end

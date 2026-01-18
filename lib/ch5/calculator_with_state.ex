@@ -14,11 +14,18 @@ defmodule CalculatorServer do
     send(server_pid, {:value, self()})
 
     receive do
-      {:response, value} -> value
+      {:response, value} ->
+        value
+
+      _ ->
+        {:error, "Unexpected message received"}
+    after
+      3_000 ->
+        {:error, "Processing the response timed out"}
     end
   end
 
-  def loop(current_value) do
+  defp loop(current_value) do
     new_value =
       receive do
         {:add, value} ->
