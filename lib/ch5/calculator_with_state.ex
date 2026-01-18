@@ -1,4 +1,7 @@
 defmodule CalculatorServer do
+  @moduledoc """
+  Server with state, an accumulator that hold the state of all requested operations over the accumulator
+  """
   def start() do
     spawn(fn -> loop(0) end)
   end

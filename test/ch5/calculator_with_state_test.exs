@@ -1,4 +1,5 @@
 defmodule CalculatorWithStateTest do
+  @moduledoc false
   use ExUnit.Case
 
   test "start/0 starts a new proces" do
