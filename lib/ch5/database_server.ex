@@ -29,7 +29,7 @@ defmodule DatabaseServer do
     end
   end
 
-  defp loop(storage, filename)  do
+  defp loop(storage, filename) do
     storage =
       receive do
         {:store, key, value} ->
@@ -58,6 +58,7 @@ defmodule DatabaseServer do
       {:ok, binary} ->
         # Deserialize the binary back to a map
         :erlang.binary_to_term(binary)
+
       {:error, _} ->
         # File doesn't exist yet, start with empty map
         %{}
