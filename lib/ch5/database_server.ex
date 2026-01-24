@@ -9,10 +9,14 @@ defmodule DatabaseServer do
   end
 
   def start_link() do
-    pid = spawn_link(fn ->
-      Process.register(self(), __MODULE__)
-      init()
-     end)
+    IO.puts("Starting the database")
+
+    pid =
+      spawn_link(fn ->
+        Process.register(self(), __MODULE__)
+        init()
+      end)
+
     {:ok, pid}
   end
 
@@ -55,6 +59,10 @@ defmodule DatabaseServer do
           # Serialize the map to binary format for storage
           binary = :erlang.term_to_binary(storage)
           File.write!(filename, binary)
+          storage
+
+        {:retrieve, :crash, _caller_pid} ->
+          raise "#{__MODULE__} has crashed"
           storage
 
         {:retrieve, key, caller_pid} ->
