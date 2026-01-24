@@ -8,6 +8,24 @@ defmodule DatabaseServer do
     spawn(fn -> init() end)
   end
 
+  def start_link() do
+    pid = spawn_link(fn ->
+      Process.register(self(), __MODULE__)
+      init()
+     end)
+    {:ok, pid}
+  end
+
+  def child_spec(_opts) do
+    %{
+      id: __MODULE__,
+      start: {__MODULE__, :start_link, []},
+      restart: :permanent,
+      shutdown: 5000,
+      type: :worker
+    }
+  end
+
   defp init() do
     filename = create_temp(@database_name)
     values = load(filename)
