@@ -12,7 +12,7 @@ defmodule LargeLinesTest do
     assert LargeLines.longest_line_lenght(path) == 79
   end
 
-  defp create_temp_file() do
+  defp create_temp_file do
     path =
       System.tmp_dir!()
       |> Path.join("large_lines_test_#{System.unique_integer([:positive])}.txt")

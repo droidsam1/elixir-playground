@@ -1,5 +1,8 @@
 # Create a function list_len/1 that calculates the length of a list
 defmodule MyList do
+  @moduledoc """
+  Simple list utilities used for recursion exercises.
+  """
   def list_len(list) do
     list_len(0, list)
   end

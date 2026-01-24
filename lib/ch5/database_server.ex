@@ -1,14 +1,14 @@
 defmodule DatabaseServer do
   @moduledoc """
-    Simulate a persistence server
+  Simulates a simple key-value persistence server backed by a temporary file.
   """
 
   @database_name "test"
-  def start() do
+  def start do
     spawn(fn -> init() end)
   end
 
-  def start_link() do
+  def start_link do
     IO.puts("Starting the database")
 
     pid =
@@ -30,7 +30,7 @@ defmodule DatabaseServer do
     }
   end
 
-  defp init() do
+  defp init do
     filename = create_temp(@database_name)
     values = load(filename)
     loop(values, filename)

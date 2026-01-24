@@ -1,4 +1,8 @@
 defmodule Ch5.Supervisor do
+  @moduledoc """
+  Top-level supervisor for chapter 5 examples.
+  """
+
   use Supervisor
 
   def start_link(_arg) do

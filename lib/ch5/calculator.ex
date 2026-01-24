@@ -1,4 +1,7 @@
 defmodule Calculator do
+  @moduledoc """
+  Stateless calculator for performing basic arithmetic operations.
+  """
   def process(op, operand1, operand2) do
     {operand1, operand2}
     |> validate_operands_are_numbers()

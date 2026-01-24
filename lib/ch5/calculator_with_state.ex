@@ -1,8 +1,9 @@
 defmodule CalculatorServer do
   @moduledoc """
-  Server with state, an accumulator that hold the state of all requested operations over the accumulator
+  Server with state: an accumulator that holds the result of all requested operations.
   """
-  def start() do
+
+  def start do
     spawn(fn -> loop(0) end)
   end
 
