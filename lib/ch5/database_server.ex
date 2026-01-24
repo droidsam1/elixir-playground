@@ -36,12 +36,12 @@ defmodule DatabaseServer do
     loop(values, filename)
   end
 
-  def storage(server_pid, key, value) do
-    send(server_pid, {:store, key, value})
+  def storage(key, value) do
+    send(__MODULE__, {:store, key, value})
   end
 
-  def retrieve(server_pid, key) do
-    send(server_pid, {:retrieve, key, self()})
+  def retrieve(key) do
+    send(__MODULE__, {:retrieve, key, self()})
 
     receive do
       {:ok, value} -> value
