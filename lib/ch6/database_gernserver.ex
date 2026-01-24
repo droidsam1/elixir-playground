@@ -7,7 +7,7 @@ defmodule Ch6.DatabaseGernserver do
 
   @database_name "test"
 
-  def start_link(initial_state) do
+  def start_link(initial_state \\ %{}) do
     GenServer.start_link(__MODULE__, initial_state, name: __MODULE__)
   end
 
@@ -23,6 +23,7 @@ defmodule Ch6.DatabaseGernserver do
 
   @impl true
   def init(_initial_state \\ %{}) do
+    IO.puts("Starting #{__MODULE__}")
     filename = create_temp(@database_name)
     storage = load(filename)
     {:ok, {storage, filename}}

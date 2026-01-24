@@ -12,9 +12,10 @@ defmodule Ch5.Supervisor do
   @impl true
   def init(:ok) do
     children = [
-      {DatabaseServer, []}
+      {DatabaseServer, []},
+      {Ch6.DatabaseGernserver, []}
     ]
 
-    Supervisor.init(children, strategy: :one_for_one)
+    Supervisor.init(children, strategy: :one_for_all)
   end
 end
