@@ -12,7 +12,7 @@ defmodule Ch5.Supervisor do
   @impl true
   def init(:ok) do
     children = [
-      {DatabaseServer, "test"}
+      {DatabaseServer, []}
     ]
 
     Supervisor.init(children, strategy: :one_for_one)
