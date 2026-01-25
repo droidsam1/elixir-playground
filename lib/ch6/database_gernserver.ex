@@ -24,6 +24,7 @@ defmodule Ch6.DatabaseGernserver do
   @impl true
   def init(_initial_state \\ %{}) do
     IO.puts("Starting #{__MODULE__}")
+    Process.send_after(self(), {:periodic_crash}, 2000)
     filename = create_temp(@database_name)
     storage = load(filename)
     {:ok, {storage, filename}}
@@ -59,6 +60,12 @@ defmodule Ch6.DatabaseGernserver do
   def handle_call({:retrieve, key}, _from, {storage, filename}) do
     value = Map.get(storage, key, nil)
     {:reply, {:ok, value}, {storage, filename}}
+  end
+
+  @impl true
+  def handle_info({:periodic_crash}, state) do
+    raise "#{__MODULE__} has crashed"
+    {:noreply, state}
   end
 
   defp create_temp(db_name) do
