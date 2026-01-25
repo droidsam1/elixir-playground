@@ -14,14 +14,14 @@ defmodule Ch6.DatabaseConnectionPool do
     {:ok, %{connections: 0}}
   end
 
-  def connect() do
+  def connect do
     case GenServer.call(__MODULE__, {:request_connection}) do
       {:ok, new_connection} -> IO.puts("Connected using #{new_connection}")
       {:error, _state} -> {:error, "no connections available"}
     end
   end
 
-  def reset() do
+  def reset do
     GenServer.cast(__MODULE__, :reset)
   end
 
