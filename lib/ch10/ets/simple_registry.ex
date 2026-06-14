@@ -4,16 +4,18 @@ defmodule SimpleRegistry do
 
   @table_name :simple_registry
 
-  def init(init_arg) do
-    {:ok, init_arg}
+  @impl true
+  def init(_) do
+    :ets.new(@table_name, [:set, :named_table, :public])
+    {:ok, nil}
   end
+
 
   def start_link do
-    ets_table = :ets.new(@table_name, [:set, :named_table])
-    GenServer.start_link(__MODULE__, ets_table)
+    GenServer.start_link(__MODULE__, nil)
   end
 
-  @spec register(atom()) :: :ok
+  @spec register(atom()) :: :ok | :erro
   def register(a_name) do
     case :ets.insert_new(@table_name, {a_name, self()}) do
       true -> :ok
@@ -21,6 +23,7 @@ defmodule SimpleRegistry do
     end
   end
 
+  @spec whereis(atom()) :: pid() | nil
   def whereis(key) do
     case :ets.lookup(@table_name, key) do
       [{^key, pid}] -> pid
