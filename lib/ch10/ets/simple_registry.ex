@@ -10,7 +10,6 @@ defmodule SimpleRegistry do
     {:ok, nil}
   end
 
-
   def start_link do
     GenServer.start_link(__MODULE__, nil)
   end
