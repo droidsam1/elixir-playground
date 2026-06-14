@@ -8,7 +8,7 @@ defmodule SimpleRegistry do
     {:ok, init_arg}
   end
 
-  def start_link() do
+  def start_link do
     ets_table = :ets.new(@table_name, [:set, :named_table])
     GenServer.start_link(__MODULE__, ets_table)
   end
