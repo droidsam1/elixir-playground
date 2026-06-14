@@ -22,6 +22,9 @@ defmodule SimpleRegistry do
   end
 
   def whereis(a_name) do
-    self()
+    case :ets.lookup(@table_name, a_name) do
+      [_value] -> self()
+      [] -> nil
+    end
   end
 end

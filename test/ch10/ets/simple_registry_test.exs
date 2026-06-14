@@ -37,4 +37,13 @@ defmodule SimpleRegistyTest do
     assert is_pid(pid)
     assert Process.alive?(pid)
   end
+
+  test "whereis/1 returns nil for unregistered lookups" do
+    SimpleRegistry.start_link()
+    SimpleRegistry.register(:a_name)
+    SimpleRegistry.whereis(:a_name)
+
+    pid = SimpleRegistry.whereis(:another_name)
+    assert is_nil(pid)
+  end
 end
