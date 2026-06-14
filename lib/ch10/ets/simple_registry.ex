@@ -15,15 +15,15 @@ defmodule SimpleRegistry do
 
   @spec register(atom()) :: :ok
   def register(a_name) do
-    case :ets.insert_new(@table_name, {a_name, 0}) do
+    case :ets.insert_new(@table_name, {a_name, self()}) do
       true -> :ok
       false -> :error
     end
   end
 
-  def whereis(a_name) do
-    case :ets.lookup(@table_name, a_name) do
-      [_value] -> self()
+  def whereis(key) do
+    case :ets.lookup(@table_name, key) do
+      [{^key, pid}] -> pid
       [] -> nil
     end
   end
