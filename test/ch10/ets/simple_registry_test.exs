@@ -27,4 +27,14 @@ defmodule SimpleRegistyTest do
     assert :ok = SimpleRegistry.register(:some_name)
     assert :ok = SimpleRegistry.register(:another_name)
   end
+
+  test "whereis/1 accepts an atom" do
+    SimpleRegistry.start_link()
+    SimpleRegistry.register(:a_name)
+
+    pid = SimpleRegistry.whereis(:a_name)
+
+    assert is_pid(pid)
+    assert Process.alive?(pid)
+  end
 end

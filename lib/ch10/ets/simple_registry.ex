@@ -20,4 +20,8 @@ defmodule SimpleRegistry do
       false -> :error
     end
   end
+
+  def whereis(a_name) do
+    self()
+  end
 end
