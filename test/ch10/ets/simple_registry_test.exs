@@ -9,6 +9,9 @@ defmodule SimpleRegistyTest do
   end
 
   test "register/1 accepts an atom" do
+
+    {:ok, _} = SimpleRegistry.start_link()
+
     assert :ok = SimpleRegistry.register(:some_name)
   end
 end
