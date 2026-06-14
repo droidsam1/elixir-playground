@@ -15,7 +15,9 @@ defmodule SimpleRegistry do
 
   @spec register(atom()) :: :ok
   def register(a_name) do
-    :ets.insert(@table_name, {a_name, 0})
-    :ok
+    case :ets.insert_new(@table_name, {a_name, 0}) do
+      true -> :ok
+      false -> :error
+    end
   end
 end

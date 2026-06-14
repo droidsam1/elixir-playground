@@ -13,4 +13,11 @@ defmodule SimpleRegistyTest do
 
     assert :ok = SimpleRegistry.register(:some_name)
   end
+
+  test "register/1 returns :error when inserting a duplicate" do
+    {:ok, _} = SimpleRegistry.start_link()
+
+    assert :ok = SimpleRegistry.register(:some_name)
+    assert :error = SimpleRegistry.register(:some_name)
+  end
 end
