@@ -20,4 +20,11 @@ defmodule SimpleRegistyTest do
     assert :ok = SimpleRegistry.register(:some_name)
     assert :error = SimpleRegistry.register(:some_name)
   end
+
+  test "register/1 accepts different atoms" do
+    SimpleRegistry.start_link()
+
+    assert :ok = SimpleRegistry.register(:some_name)
+    assert :ok = SimpleRegistry.register(:another_name)
+  end
 end
