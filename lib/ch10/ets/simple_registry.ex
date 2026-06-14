@@ -1,9 +1,12 @@
 defmodule SimpleRegistry do
+  @moduledoc "Simple registry to practice with ETS tables"
+  use GenServer
 
-def start_link() do
+  def init(init_arg) do
+    {:ok, init_arg}
+  end
 
-  {:ok, self()}
-
-end
-
+  def start_link() do
+    GenServer.start_link(__MODULE__, {})
+  end
 end
